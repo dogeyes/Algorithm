@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Iterator;
 
 /**
@@ -576,6 +577,59 @@ public class MyBST<Key extends Comparable<Key>, Value> {
         }
     }
 
+    private class TreePosition
+    {
+        double x;
+        double y;
+        double left;
+        double right;
+        public TreePosition(double x, double y, double l, double r)
+        {
+            this.x = x;
+            this.y = y;
+            left = l;
+            right = r;
+        }
+    }
+    public void draw()
+    {
+        StdDraw.setPenColor(Color.BLACK);
+        StdDraw.setPenRadius(0.005);
+        StdDraw.setYscale(-1, root.height + 2);
+        StdDraw.setXscale(-1, root.N  + 1);
+        TreePosition rootTree = draw(root, 0, root.height);
+        drawNode(rootTree, root);
+    }
+    private TreePosition draw(Node x, double leftBorder, double h)
+    {
+        if(x == null)
+        {
+            StdDraw.setPenRadius(0.02);
+            StdDraw.point(leftBorder,h);
+            StdDraw.setPenRadius(0.005);
+            return new TreePosition(leftBorder,h,leftBorder, leftBorder + 1);
+        }
+        TreePosition leftTree = draw(x.left, leftBorder, h - 1);
+        TreePosition rightTree = draw(x.right, leftTree.right, h - 1);
+        TreePosition xTree = new TreePosition((leftTree.x + rightTree.x) / 2, h, leftTree.left, rightTree.right);
+        StdDraw.line(leftTree.x, leftTree.y, xTree.x, xTree.y);
+        StdDraw.line(rightTree.x, rightTree.y, xTree.x, xTree.y);
+
+        if(x.left != null)
+            drawNode(leftTree, x.left);
+        if(x.right != null)
+            drawNode(rightTree, x.right);
+        return xTree;
+    }
+    private void drawNode(TreePosition p, Node x)
+    {
+        StdDraw.setPenColor(Color.GREEN);
+        StdDraw.filledCircle(p.x, p.y, 0.3);
+        StdDraw.setPenColor(Color.RED);
+        StdDraw.text(p.x, p.y, x.key.toString());
+        StdDraw.setPenColor(Color.BLACK);
+    }
+
     public static void main(String[] args)
     {
         MyBST<String, Integer> bst = new MyBST<String, Integer>();
@@ -626,6 +680,8 @@ public class MyBST<Key extends Comparable<Key>, Value> {
         for(String s: bst.keysNewReverse())
             StdOut.print(s + " ");
         StdOut.println();
+
+        bst.draw();
 
     }
 }

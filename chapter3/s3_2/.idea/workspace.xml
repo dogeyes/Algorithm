@@ -4,7 +4,7 @@
     <list default="true" id="437d7f42-1bac-492b-90d5-5b0b04e4a4a2" name="Default" comment="" />
     <ignored path="s3_2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MyBST.java" changelist="437d7f42-1bac-492b-90d5-5b0b04e4a4a2" time="1355754315241" ignored="false" />
+    <file path="/MyBST.java" changelist="437d7f42-1bac-492b-90d5-5b0b04e4a4a2" time="1355840092381" ignored="false" />
     <file path="/binaryTree.txt" changelist="437d7f42-1bac-492b-90d5-5b0b04e4a4a2" time="1355710631553" ignored="false" />
     <file path="/fragment.java" changelist="437d7f42-1bac-492b-90d5-5b0b04e4a4a2" time="1355710444569" ignored="false" />
     <file path="/NonRecursiveBST.java" changelist="437d7f42-1bac-492b-90d5-5b0b04e4a4a2" time="1355720568867" ignored="false" />
@@ -72,9 +72,10 @@
       <file leaf-file-name="MyBST.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="617" column="20" selection-start="16553" selection-end="16553" vertical-scroll-proportion="0.9332344">
+            <state line="687" column="30" selection-start="18608" selection-end="18608" vertical-scroll-proportion="0.9325843">
               <folding>
-                <element signature="e#12485#12491#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#12504#12510#0" expanded="true" />
                 <element signature="class#Iter#0;class#MyBST#0" expanded="false" />
                 <element signature="method#keysNewReverse#1;class#MyBST#0" expanded="false" />
               </folding>
@@ -427,7 +428,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="822" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="822" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -438,16 +439,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.6733238" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.6737892" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32621083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -516,7 +517,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="631" column="32" selection-start="16822" selection-end="16822" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#12485#12491#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#12504#12510#0" expanded="true" />
             <element signature="class#Iter#0;class#MyBST#0" expanded="false" />
             <element signature="method#keysNewReverse#1;class#MyBST#0" expanded="false" />
           </folding>
@@ -562,7 +564,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="203" column="13" selection-start="4710" selection-end="4710" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#12485#12491#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#12504#12510#0" expanded="true" />
             <element signature="class#Iter#0;class#MyBST#0" expanded="false" />
             <element signature="method#keysNewReverse#1;class#MyBST#0" expanded="false" />
           </folding>
@@ -618,11 +621,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/MyBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="515" column="8" selection-start="14030" selection-end="14041" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="617" column="20" selection-start="16553" selection-end="16553" vertical-scroll-proportion="0.9332344">
+        <state line="687" column="30" selection-start="18608" selection-end="18608" vertical-scroll-proportion="0.9325843">
           <folding>
-            <element signature="e#12485#12491#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#12504#12510#0" expanded="true" />
             <element signature="class#Iter#0;class#MyBST#0" expanded="false" />
             <element signature="method#keysNewReverse#1;class#MyBST#0" expanded="false" />
           </folding>
