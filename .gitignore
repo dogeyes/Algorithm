@@ -4,3 +4,7 @@ algs4-date/*
 *.txt
 *.class
 
+# Package Files #
+*.jar
+*.war
+*.ear
