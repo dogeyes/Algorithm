@@ -3,11 +3,11 @@ import java.awt.*;
 /**
  * Created with IntelliJ IDEA.
  * User: daixing
- * Date: 12-12-18
- * Time: 下午10:30
+ * Date: 12-12-19
+ * Time: 下午8:35
  * To change this template use File | Settings | File Templates.
  */
-public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
+public class TopDown23Tree<Key extends Comparable<Key>, Value> {
     private Node root;
     private static final boolean BLACK = false;
     private static final boolean RED = true;
@@ -85,13 +85,17 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
     }
     public void put(Key key, Value val)
     {
-        root = put(root, key, val);
+        put(root, key, val);
         root.color = BLACK;
     }
-    private Node put(Node h, Key key, Value val)
+    /*private Node put(Node h, Key key, Value val)   //recursion implementation
     {
         if(h == null)
             return new Node(key, val, 1, RED, 0);
+
+        if(isRed(h.left) && isRed(h.right))  //split 4 node
+            flipColor(h);
+
         int cmp = key.compareTo(h.key);
         if(cmp < 0)
             h.left = put(h.left, key,val);
@@ -103,13 +107,88 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
         if(isRed(h.right) && ! isRed(h.left))
             h = rotateLeft(h);
         if(isRed(h.left) && isRed(h.left.left))
-            h = rotateRight(h);
-        if(isRed(h.left) && isRed(h.right))
-            flipColor(h);
+            h = rotateRight(h);                       //adjust, let the median on the top of the node
 
         h.N = size(h.left) + size(h.right) + 1;
         h.height = Math.max(height(h.left), height(h.right)) + 1;
         return h;
+    }*/
+
+    private Node check4Node(Node x)
+    {
+        if(isRed(x.left) && isRed(x.left.left))
+            return rotateRight(x);
+        if(isRed(x.left) && isRed(x.left.right))
+        {
+            x.left = rotateLeft(x.left);
+            return rotateRight(x);
+        }
+        return x;
+    }
+
+    private void put(Node h, Key key, Value val)
+    {
+
+        if(h == null)
+            root = new Node(key, val, 1, RED, 0);
+        root = check4Node(root);
+        h = root;
+
+        while (h != null)
+        {
+            Node tmp = h;
+            int comp = key.compareTo(h.key);
+
+            if(comp == 0)
+            {
+                h.val = val;
+                return;
+            }
+            if(comp < 0)
+            {
+                if(h.left == null)
+                {
+                    h.left = new Node(key, val, 1, RED, 0);
+                    return;
+                }
+                h.left = check4Node(h.left);
+
+                if(!isRed(h.left) && isRed(h.left.right) && !isRed(h.left.left))
+                {
+                    h.left = rotateLeft(h.left);
+                }
+
+                if(isRed(h.left) && isRed(h.right))
+                    flipColor(h);
+
+                if(tmp == h)
+                    h = h.left;
+            }
+
+            if(comp > 0)
+            {
+                if(h.right == null)
+                {
+                    h.right = new Node(key, val, 1, RED, 0);
+                    return;
+                }
+
+                h.right = check4Node(h.right);
+
+                if(!isRed(h.right) && isRed(h.right.right) && !isRed(h.right.left))
+                {
+                    h.right = rotateLeft(h.right);
+                }
+
+
+                if(isRed(h.left) && isRed(h.right))
+                    flipColor(h);
+
+                if(tmp == h)
+                    h = h.right;
+            }
+        }
+        return;
     }
     private class TreePosition
     {
@@ -125,13 +204,28 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
             right = r;
         }
     }
+
+    private int badHegiht(Node x)
+    {
+        if(x == null)
+            return -1;
+        return Math.max(badHegiht(x.left), badHegiht(x.right)) + 1;
+    }
+    private int badNodeNumber(Node x)
+    {
+        if(x == null)
+            return 0;
+        return badNodeNumber(x.left) + badNodeNumber(x.right) + 1;
+    }
     public void draw()
     {
         StdDraw.setPenColor(Color.BLACK);
         StdDraw.setPenRadius(0.005);
-        StdDraw.setYscale(-1, root.height + 2);
-        StdDraw.setXscale(-1, root.N  + 1);
-        TreePosition rootTree = draw(root, 0, root.height);
+        int height = badHegiht(root);
+        int N = badNodeNumber(root);
+        StdDraw.setYscale(-1, height + 2);
+        StdDraw.setXscale(-1, N  + 1);
+        TreePosition rootTree = draw(root, 0, height);
         drawNode(rootTree, root);
     }
     private TreePosition draw(Node x, double leftBorder, double h)
@@ -168,14 +262,17 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
     }
     public static void main(String[] args)
     {
-        int N = 11;
-        MyRedBlackBST<Integer, Integer> bst = new MyRedBlackBST<Integer, Integer>();
+        int N = 80;
+        TopDown23Tree<Integer, Integer> bst = new TopDown23Tree<Integer, Integer>();
         for(int i = 0; i < N; ++i)
         {
-            bst.put( i, i);
+            int num = StdIn.readInt();
+            bst.put(num, i);
+            StdDraw.clear();
+            bst.draw();
         }
 
         bst.draw();
     }
-
 }
+
