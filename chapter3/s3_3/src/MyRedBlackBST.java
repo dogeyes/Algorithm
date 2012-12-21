@@ -42,6 +42,30 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
         else
             return x.height;
     }
+    public boolean isEmpty()
+    {
+        return root == null;
+    }
+    public Value get(Key key)
+    {
+        Node res = get(root, key);
+        if(res == null)
+            return  null;
+        else
+            return res.val;
+    }
+    private Node get(Node x, Key key)
+    {
+        if(x == null)
+            return null;
+        int comp = key.compareTo(x.key);
+        if(comp == 0)
+            return x;
+        else if(comp < 0)
+            return get(x.left, key);
+        else
+            return get(x.right, key);
+    }
     private Node rotateLeft(Node h)
     {
         Node x = h.right;
@@ -68,6 +92,135 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
         x.height = Math.max(height(x.left), height(x.right)) + 1;
         return x;
     }
+    public int size()
+    {
+        if(root == null)
+            return 0;
+        else
+            return root.N;
+    }
+    private Node moveRedLeft(Node h)
+    {
+        flipColor(h);
+        if(isRed(h.right.left))
+        {
+            h.right = rotateRight(h.right);
+            h = rotateLeft(h);
+            // 为什么这里不用flipColor,把它变得比较合乎情理
+            flipColor(h);
+            //貌似在balance的时候会balance回来的,但是这样一但省略,就搞不清楚什么状况了
+            //加上程序还会错了吗?
+            //我擦泪
+            //突然想到,如果出现
+            /*
+                            黑
+                         红     红
+                       红
+               情况,照balance,先是左转,这样就3连红了,因为有两个
+               连红,所以再右转,相当于没转啊,给跪了,然后再flip颜色,
+
+                有空要把详细情况写一下
+             */
+        }
+        return h;
+    }
+
+    public void deleteMin()
+    {
+        if(!isRed(root.left) && !isRed(root.right))
+            root.color = RED;
+        root = deleteMin(root);
+        if(!isEmpty()) root.color = BLACK;
+    }
+    private Node deleteMin(Node h)
+    {
+        if(h.left == null)
+            return null;
+        if(!isRed(h.left) && !isRed(h.left.left)) //left is a 2 node
+            h = moveRedLeft(h);
+        h.left = deleteMin(h.left);
+        return balance(h);
+    }
+    public void deleteMax()
+    {
+        if(!isRed(root.left) && !isRed(root.right))
+            root.color = RED;
+        root = deleteMax(root);
+        if(!isEmpty()) root.color = BLACK;
+    }
+    private Node deleteMax(Node h)
+    {
+        if(isRed(h.left))  //先变成right leaning 再进行考虑
+            h = rotateRight(h);
+        if(h.right == null)
+            return null;
+        if(!isRed(h.right) && !isRed(h.right.left))
+            h = moveRedRight(h);
+        h.right = deleteMax(h.right);
+        return balance(h);
+    }
+    private Node moveRedRight(Node h)
+    {
+        flipColor(h);
+        if(isRed(h.left.left))
+        {
+            h = rotateRight(h);
+            flipColor(h);
+        }
+        return h;
+    }
+    public void delete(Key key)
+    {
+        if(!isRed(root.left) && !isRed(root.right))
+            root.color = RED;
+        root = delete(root, key);
+        if(root != null)
+            root.color = BLACK;
+    }
+    private Node delete(Node h, Key key)
+    {
+        int cmp = key.compareTo(h.key);
+        if(h == null|| (cmp < 0 && h.left == null) ||
+                (cmp > 0 && h.right == null))
+            return h;
+        if(key.compareTo(h.key) < 0)
+        {
+            if(!isRed(h.left) && !isRed(h.left.left)) //left is a 2 node
+                h = moveRedLeft(h);
+            h.left = delete(h.left, key);
+        }
+        else
+        {
+            if(isRed(h.left))
+                h = rotateRight(h);
+            if(key.compareTo(h.key) == 0 && (h.right == null))
+                return null;
+            if(!isRed(h.right) && !isRed(h.right.left))
+                h = moveRedRight(h);
+            if(key.compareTo(h.key) == 0)
+            {
+                h.val = get(h.right, min(h.right).key).val;
+                h.key = min(h.right).key;
+                h.right = deleteMin(h.right);
+            }
+            else
+                h.right = delete(h.right, key);
+        }
+        return balance(h);
+    }
+
+    private Node balance(Node h)
+    {
+        if(isRed(h.right))
+            h = rotateLeft(h);
+        if(isRed(h.left) && isRed(h.left.left))
+            h = rotateRight(h);
+        if(isRed(h.left) && isRed(h.right))
+            flipColor(h);
+        h.N = size(h.left) + size(h.right) + 1;
+        h.height = Math.max(height(h.left), height(h.right)) + 1;
+        return h;
+    }
     private int size(Node x)
     {
         if(x == null)
@@ -78,10 +231,18 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
 
     private void flipColor(Node h)
     {
-        h.color = RED;
-        h.right.color = BLACK;
-        h.left.color = BLACK;
-
+        if(isRed(h))
+        {
+            h.color = BLACK;
+            h.left.color = RED;
+            h.right.color = RED;
+        }
+        else
+        {
+            h.color = RED;
+            h.right.color = BLACK;
+            h.left.color = BLACK;
+        }
     }
     public void put(Key key, Value val)
     {
@@ -111,6 +272,208 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
         h.height = Math.max(height(h.left), height(h.right)) + 1;
         return h;
     }
+
+    public void print()
+    {
+        print(root);
+    }
+    private void print(Node x)
+    {
+        if(x == null)
+            return;
+        print(x.left);
+        StdOut.println(x.key + ":" + x.val + ":" + x.height);
+        print(x.right);
+    }
+
+    public Key min()
+    {
+        return min(root).key;
+    }
+    private Node min(Node x)
+    {
+        if(x.left == null)
+            return x;
+        else
+            return min(x.left);
+    }
+    public Key max()
+    {
+        Node h = root;
+        while (h.right != null)
+            h = h.right;
+        return h.key;
+    }
+    public Iterable<Key> keys()
+    {
+        return keys(min(), max());
+    }
+    public Iterable<Key> keys(Key lo, Key hi)
+    {
+        Queue<Key> queue = new Queue<Key>();
+        keys(root, queue, lo, hi);
+        return queue;
+    }
+    private void keys(Node x, Queue<Key> queue, Key lo, Key hi)
+    {
+        if(x == null)
+            return;
+        int compLo = lo.compareTo(x.key);
+        int compHi = hi.compareTo(x.key);
+        if(compLo < 0)
+            keys(x.left, queue, lo, hi);
+        if(compLo <= 0 && compHi >= 0)
+            queue.enqueue(x.key);
+        if(compHi > 0)
+            keys(x.right, queue,lo, hi);
+    }
+    public Key randomKey()
+    {
+        int k = StdRandom.uniform(root.N);
+        return select(k);
+    }
+    public Key floor(Key key)
+    {
+        Node res = floor(root, key);
+        if(res == null)
+            return null;
+        else
+            return res.key;
+    }
+    private Node floor(Node x, Key key)
+    {
+        if(x == null)
+            return null;
+        int comp = key.compareTo(x.key);
+        if(comp < 0)
+            return floor(x.left, key);
+        else if(comp > 0)
+        {
+            Node res = floor(x.right, key);
+            if(res != null)
+                return res;
+            else
+                return x;
+        }
+        else
+            return x;
+    }
+    public Key ceiling(Key key)
+    {
+        Node res = ceiling(root, key);
+        if(res == null)
+            return null;
+        else
+            return res.key;
+    }
+    private Node ceiling(Node x, Key key)
+    {
+        if(x == null)
+            return null;
+        int comp = key.compareTo(x.key);
+        if(comp > 0)
+            return ceiling(x.right, key);
+        else if(comp == 0)
+            return x;
+        else
+        {
+            Node res = ceiling(x.left, key);
+            if(res == null)
+                return x;
+            else
+                return res;
+        }
+    }
+    public Key select(int k)
+    {
+        Node res = select(root, k);
+        if(res == null)
+            return null;
+        else
+            return res.key;
+    }
+    private Node select(Node x, int k)
+    {
+        if(x == null)
+            return null;
+        int t = size(x.left);
+        if(t == k)
+            return x;
+        else if(k < t)
+            return select(x.left, k);
+        else
+            return select(x.right,k - t - 1);
+    }
+    public int rank(Key key)
+    {
+        return rank(root, key);
+    }
+    private int rank(Node x, Key key)
+    {
+        if(x == null)
+            return 0;
+        int comp = key.compareTo(x.key);
+        if(comp == 0)
+            return size(x.left);
+        else if(comp < 0)
+            return rank(x.left, key);
+        else
+            return size(x.left) + 1 + rank(x.right, key);
+    }
+
+    public boolean isBinaryTree()
+    {
+        return isBinaryTree(root);
+    }
+    private boolean isBinaryTree(Node x)
+    {
+        if(x == null)
+            return true;
+        if(x.left != null && x.key.compareTo(x.left.key) <= 0)
+            return false;
+        if(x.right != null && x.key.compareTo(x.right.key) >= 0)
+            return false;
+        if(size(x.left) + size(x.right) + 1 != size(x))
+            return false;
+        return isBinaryTree(x.left) && isBinaryTree(x.right);
+    }
+
+    public boolean is23()
+    {
+        return is23(root);
+    }
+    private boolean is23(Node x)
+    {
+        if(x == null)
+            return true;
+        if(isRed(x.left) && isRed(x.right))
+            return false;
+        else
+            return is23(x.left) && is23(x.right);
+    }
+
+    public boolean isBalance()
+    {
+        int le =  blackBalance(root.left);
+        int ri = blackBalance(root.right);
+        if(le == ri && le != -2)
+            return true;
+        return false;
+    }
+    private int blackBalance(Node x)
+    {
+        if(x == null)
+            return -1;
+        int le =  blackBalance(root.left);
+        int ri = blackBalance(root.right);
+        if(le == ri && le != -2)
+        {
+            if(!isRed(x))
+                return ri + 1;
+        }
+        return -2;
+    }
+
     private class TreePosition
     {
         double x;
@@ -131,8 +494,19 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
         StdDraw.setPenRadius(0.005);
         StdDraw.setYscale(-1, root.height + 2);
         StdDraw.setXscale(-1, root.N  + 1);
+        StdDraw.clear();
         TreePosition rootTree = draw(root, 0, root.height);
         drawNode(rootTree, root);
+    }
+    public void draw(Node x)
+    {
+        StdDraw.clear();
+        StdDraw.setPenColor(Color.BLACK);
+        StdDraw.setPenRadius(0.005);
+        StdDraw.setYscale(-1, x.height + 2);
+        StdDraw.setXscale(-1, x.N  + 1);
+        TreePosition rootTree = draw(x, 0, x.height);
+        drawNode(rootTree, x);
     }
     private TreePosition draw(Node x, double leftBorder, double h)
     {
@@ -168,14 +542,22 @@ public class MyRedBlackBST<Key extends Comparable<Key>, Value> {
     }
     public static void main(String[] args)
     {
-        int N = 11;
         MyRedBlackBST<Integer, Integer> bst = new MyRedBlackBST<Integer, Integer>();
-        for(int i = 0; i < N; ++i)
+        int num = StdIn.readInt();
+        while (num != 0)
         {
-            bst.put( i, i);
+            bst.put(num, num);
+            bst.draw();
+            num = StdIn.readInt();
         }
-
-        bst.draw();
+        StdOut.println(bst.min());
+        StdOut.println(bst.max());
+        while (bst.size() != 0)
+        {
+            int s = StdIn.readInt();
+            bst.delete(s);
+            bst.draw();
+            StdOut.println(bst.size());
+        }
     }
-
 }
