@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/AVLTree.java" description="            if(height(x.right.left) &gt; height(x.rig..." line="106" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f4fd77ca-7797-4fa3-b78e-17355e2d9a63" name="Default" comment="" />
     <ignored path="s3_3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MyRedBlackBST.java" changelist="f4fd77ca-7797-4fa3-b78e-17355e2d9a63" time="1355917248154" ignored="false" />
+    <file path="/MyRedBlackBST.java" changelist="f4fd77ca-7797-4fa3-b78e-17355e2d9a63" time="1355993514605" ignored="false" />
     <file path="/p3_3_16.java" changelist="f4fd77ca-7797-4fa3-b78e-17355e2d9a63" time="1355917460294" ignored="false" />
     <file path="/TopDown23Tree.java" changelist="f4fd77ca-7797-4fa3-b78e-17355e2d9a63" time="1355930389697" ignored="false" />
+    <file path="/AVLTree.java" changelist="f4fd77ca-7797-4fa3-b78e-17355e2d9a63" time="1355970197212" ignored="false" />
+    <file path="/TestRedBlackBST.java" changelist="f4fd77ca-7797-4fa3-b78e-17355e2d9a63" time="1355991735915" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +19,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -21,7 +31,65 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/TopDown23Tree.java" line="268" class="TopDown23Tree" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/AVLTree.java" line="322" class="AVLTree" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/MyRedBlackBST.java" line="556" class="MyRedBlackBST" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/TestRedBlackBST.java" line="24" class="TestRedBlackBST" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -56,23 +124,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/TopDown23Tree.java" line="268" class="TopDown23Tree" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -82,12 +134,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyRedBlackBST.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyRedBlackBST.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyRedBlackBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="241" selection-end="4964" vertical-scroll-proportion="0.0">
+            <state line="559" column="18" selection-start="14546" selection-end="14586" vertical-scroll-proportion="0.50482315">
               <folding>
-                <element signature="e#4833#4851#0" expanded="true" />
+                <element signature="e#14154#14172#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRedBlackBST.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestRedBlackBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#362#380#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,17 +160,15 @@
         <entry file="file://$PROJECT_DIR$/src/p3_3_16.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="13" selection-start="0" selection-end="496" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#289#306#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopDown23Tree.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TopDown23Tree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TopDown23Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="40" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.4393531">
+            <state line="185" column="33" selection-start="4758" selection-end="4758" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#7209#7227#0" expanded="true" />
               </folding>
@@ -115,11 +176,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StdIn.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../stdlib.jar!/StdIn.java">
+      <file leaf-file-name="AVLTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="307" column="4" selection-start="8381" selection-end="9024" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="class#TreePosition#0;class#AVLTree#0" expanded="false" />
+                <element signature="method#badHegiht#0;class#AVLTree#0" expanded="false" />
+                <element signature="method#badNodeNumber#0;class#AVLTree#0" expanded="false" />
+                <element signature="method#draw#1;class#AVLTree#0" expanded="false" />
+                <element signature="method#drawNode#0;class#AVLTree#0" expanded="false" />
+                <element signature="e#8545#8563#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,14 +199,27 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="s3_3" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/MyRedBlackBST.java" />
         <option value="$PROJECT_DIR$/src/p3_3_16.java" />
         <option value="$PROJECT_DIR$/src/TopDown23Tree.java" />
+        <option value="$PROJECT_DIR$/src/in.txt" />
+        <option value="$PROJECT_DIR$/src/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/TestRedBlackBST.java" />
+        <option value="$PROJECT_DIR$/src/MyRedBlackBST.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="544" />
@@ -172,7 +253,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,6 +288,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +306,12 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.TopDown23Tree">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Algorithm\Algorithm\chapter3\s3_3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyRedBlackBST">
     <configuration default="false" name="MyRedBlackBST" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MyRedBlackBST" />
       <option name="VM_PARAMETERS" />
@@ -238,7 +324,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="s3_3" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -280,6 +372,50 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="AVLTree" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="AVLTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="s3_3" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestRedBlackBST" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestRedBlackBST" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="s3_3" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -292,19 +428,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -332,6 +455,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -368,16 +504,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MyRedBlackBST" />
       <item index="1" class="java.lang.String" itemvalue="Application.p3_3_16" />
       <item index="2" class="java.lang.String" itemvalue="Application.TopDown23Tree" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AVLTree" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestRedBlackBST" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.TopDown23Tree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.p3_3_16" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyRedBlackBST" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.MyRedBlackBST" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestRedBlackBST" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AVLTree" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TopDown23Tree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.p3_3_16" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -386,6 +526,24 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f4fd77ca-7797-4fa3-b78e-17355e2d9a63" name="Default" comment="" />
@@ -396,23 +554,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="544" y="22" width="901" height="822" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6258693" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3974359" sideWeight="0.9727403" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39699247" sideWeight="0.9727403" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23718713" sideWeight="0.5954887" order="6" side_tool="true" content_ui="tabs" x="1101" y="99" width="199" height="457" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.6258693" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23859648" sideWeight="0.62393165" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37606838" sideWeight="0.98637015" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23718713" sideWeight="0.5954887" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40451127" sideWeight="0.98637015" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -482,32 +640,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MyRedBlackBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="16" selection-start="4700" selection-end="4700" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="241" selection-end="4964" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#4833#4851#0" expanded="true" />
+            <element signature="e#14154#14172#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../s3_2/src/MyBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="631" column="25" selection-start="15099" selection-end="16841" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p3_3_16.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="0" selection-end="496" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#289#306#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyRedBlackBST.java">
+    <entry file="file://$PROJECT_DIR$/src/TopDown23Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="241" selection-end="4964" vertical-scroll-proportion="0.0">
+        <state line="157" column="40" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#4833#4851#0" expanded="true" />
+            <element signature="e#7209#7227#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -519,11 +670,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyRedBlackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="16" selection-start="4700" selection-end="4700" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#14154#14172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TopDown23Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="40" selection-start="4059" selection-end="4059" vertical-scroll-proportion="0.4393531">
+        <state line="185" column="33" selection-start="4758" selection-end="4758" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#7209#7227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.11891892">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p3_3_16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="0" selection-end="496" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../s3_2/src/MyBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="0" selection-start="4423" selection-end="6473" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="307" column="4" selection-start="8381" selection-end="9024" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="class#TreePosition#0;class#AVLTree#0" expanded="false" />
+            <element signature="method#badHegiht#0;class#AVLTree#0" expanded="false" />
+            <element signature="method#badNodeNumber#0;class#AVLTree#0" expanded="false" />
+            <element signature="method#draw#1;class#AVLTree#0" expanded="false" />
+            <element signature="method#drawNode#0;class#AVLTree#0" expanded="false" />
+            <element signature="e#8545#8563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../stdlib.jar!/StdIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../stdlib.jar!/StdDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="279" column="0" selection-start="10315" selection-end="10315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestRedBlackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#362#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyRedBlackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="559" column="18" selection-start="14546" selection-end="14586" vertical-scroll-proportion="0.50482315">
+          <folding>
+            <element signature="e#14154#14172#0" expanded="true" />
           </folding>
         </state>
       </provider>
