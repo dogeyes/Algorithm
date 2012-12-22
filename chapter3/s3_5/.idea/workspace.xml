@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" name="Default" comment=".">
+    <list default="true" id="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MultiLinearProbingHashST.java" afterPath="$PROJECT_DIR$/src/MultiLinearProbingHashST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -16,7 +16,7 @@
     <file path="/SparseVector.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356164672361" ignored="false" />
     <file path="/MySET.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356166419336" ignored="false" />
     <file path="/MyHashSET.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356166787756" ignored="false" />
-    <file path="/Dummy.txt" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356182355250" ignored="false" />
+    <file path="/Dummy.txt" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356182362588" ignored="false" />
     <file path="/MultiLinearProbingHashST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356178508861" ignored="false" />
     <file path="/MultiBST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356180058479" ignored="false" />
     <file path="/MultiRedBlackBST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356181811959" ignored="false" />
@@ -273,7 +273,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="172" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="172" />
@@ -299,7 +299,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
@@ -549,7 +549,11 @@
       <created>1356182195183</created>
       <updated>1356182195183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <created>1356182380515</created>
+      <updated>1356182380515</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -573,17 +577,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="539" y="22" width="901" height="820" extended-state="0" />
+    <frame x="539" y="22" width="901" height="820" extended-state="1" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880846" sideWeight="0.49582836" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880846" sideWeight="0.48152563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43137255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880846" sideWeight="0.49582836" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880846" sideWeight="0.49582836" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880846" sideWeight="0.49582836" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25268176" sideWeight="0.6711916" order="6" side_tool="true" content_ui="tabs" x="1068" y="312" width="212" height="153" />
@@ -807,6 +811,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>algs4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
