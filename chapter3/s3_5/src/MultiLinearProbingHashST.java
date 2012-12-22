@@ -22,7 +22,7 @@ public class MultiLinearProbingHashST<Key, Value> {
     }
     private int hash(Key key)
     {
-        return (key.hashCode() & 0x7fffffff) % M;
+        return ((key.hashCode() * 31) & 0x7fffffff) % M;
     }
     private void resize(int size)
     {
@@ -81,15 +81,16 @@ public class MultiLinearProbingHashST<Key, Value> {
                 break;
             h = (h + 1) % M;
         }
-        while(keys[h].equals(key))
-        {
-            keys[h] = null;
-            values[h] = null;
-            h = (h + 1) % M;
-        }
         while (keys[h] != null)
         {
             count++;
+            if(keys[h].equals(key))
+            {
+                keys[h] = null;
+                values[h] = null;
+                h = (h + 1) % M;
+                continue;
+            }
             Key keyToRedo = keys[h];
             Value valToRedo = values[h];
             keys[h] = null;
@@ -119,12 +120,21 @@ public class MultiLinearProbingHashST<Key, Value> {
         MultiLinearProbingHashST<Integer, Integer> st = new MultiLinearProbingHashST<Integer, Integer>(16);
         for(int i = 0; i < N; ++i)
         {
-            st.put(a[i], a[i]);
+            st.put(a[i], i);
         }
 
         for(int i = 0; i < N; ++i)
         {
-            StdOut.println(a[i] + ":" + st.get(a[i]) + " ");
+            StdOut.print(a[i] + ":" + st.get(a[i]) + "  ");
         }
+        StdOut.println();
+        int num = StdIn.readInt();
+        st.delete(num);
+
+        for(int i = 0; i < N; ++i)
+        {
+            StdOut.print(a[i] + ":" + st.get(a[i]) + "  ");
+        }
+        StdOut.println();
     }
 }

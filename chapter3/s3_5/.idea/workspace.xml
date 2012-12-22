@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MultiLinearProbingHashST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MultiBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MultiLinearProbingHashST.java" afterPath="$PROJECT_DIR$/src/MultiLinearProbingHashST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="s3_5.iws" />
@@ -17,8 +17,10 @@
     <file path="/SparseVector.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356164672361" ignored="false" />
     <file path="/MySET.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356166419336" ignored="false" />
     <file path="/MyHashSET.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356166787756" ignored="false" />
-    <file path="/Dummy.txt" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356177927850" ignored="false" />
-    <file path="/MultiLinearProbingHashST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356177909498" ignored="false" />
+    <file path="/Dummy.txt" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356182089111" ignored="false" />
+    <file path="/MultiLinearProbingHashST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356178508861" ignored="false" />
+    <file path="/MultiBST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356180058479" ignored="false" />
+    <file path="/MultiRedBlackBST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356181811959" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +98,20 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/MultiLinearProbingHashST.java" line="137" class="MultiLinearProbingHashST" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
@@ -110,7 +126,7 @@
       <file leaf-file-name="MyHashSET.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyHashSET.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="45" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+            <state line="41" column="9" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#1278#1287#0" expanded="true" />
               </folding>
@@ -118,14 +134,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiLinearProbingHashST.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MultiLinearProbingHashST.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MultiLinearProbingHashST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="57" selection-start="3137" selection-end="3137" vertical-scroll-proportion="1.2819905">
+            <state line="119" column="23" selection-start="2897" selection-end="2897" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#737#749#0" expanded="true" />
-                <element signature="e#2904#2922#0" expanded="true" />
+                <element signature="e#744#756#0" expanded="true" />
+                <element signature="e#2958#2976#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiBST.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MultiBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="279" column="12" selection-start="6408" selection-end="6408" vertical-scroll-proportion="0.49222797">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#11681#11699#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiRedBlackBST.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MultiRedBlackBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="227" column="27" selection-start="5907" selection-end="5907" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,14 +194,16 @@
         <option value="$PROJECT_DIR$/src/MySET.java" />
         <option value="$PROJECT_DIR$/src/MyHashSET.java" />
         <option value="$PROJECT_DIR$/src/MultiLinearProbingHashST.java" />
+        <option value="$PROJECT_DIR$/src/MultiBST.java" />
+        <option value="$PROJECT_DIR$/src/MultiRedBlackBST.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="539" />
+    <option name="y" value="22" />
+    <option name="width" value="901" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -235,54 +274,38 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="172" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="172" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="176" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../stdlib.jar!/" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="173" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="851" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="847" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="172" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="165" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.MultiLinearProbingHashST">
-    <configuration default="false" name="FileIndex" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="FileIndex" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="../../algs4-data/ex1.txt ../../algs4-data/ex2.txt ../../algs4-data/ex3.txt ../../algs4-data/ex4.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s3_5" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SparseVector" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="SparseVector" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s3_5" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MultiBST">
     <configuration default="false" name="MySET" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MySET" />
       <option name="VM_PARAMETERS" value="" />
@@ -333,7 +356,51 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="s3_5" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MultiBST" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MultiBST" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="s3_5" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MultiRedBlackBST" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MultiRedBlackBST" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="s3_5" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -426,19 +493,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FileIndex" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SparseVector" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MySET" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MyHashSET" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MultiLinearProbingHashST" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MySET" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyHashSET" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MultiLinearProbingHashST" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MultiBST" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MultiRedBlackBST" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MultiLinearProbingHashST" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MyHashSET" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MySET" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SparseVector" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FileIndex" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MultiBST" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MultiRedBlackBST" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MultiLinearProbingHashST" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MyHashSET" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MySET" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -471,27 +538,52 @@
       <created>1356159913446</created>
       <updated>1356159913446</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;.&quot;">
+      <created>1356178008583</created>
+      <updated>1356178008583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="539" y="22" width="901" height="820" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43137255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32730016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25268176" sideWeight="0.67269987" order="6" side_tool="true" content_ui="tabs" x="1068" y="312" width="212" height="153" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1527977" sideWeight="0.62308764" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3769124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25268176" sideWeight="0.67269987" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37405732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -537,7 +629,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -550,6 +642,8 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="&quot;.&quot;" />
+    <MESSAGE value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -559,27 +653,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LookupCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LookupIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="36" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="49" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SparseVector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="25" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
@@ -648,15 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyHashSET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="45" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1278#1287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../s3_4/src/MyLinearProbingHashST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="204" selection-end="3012" vertical-scroll-proportion="0.0">
@@ -664,12 +728,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyHashSET.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="9" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1278#1287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../s3_2/src/MyBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="685" column="29" selection-start="259" selection-end="18605" vertical-scroll-proportion="0.7806638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MultiLinearProbingHashST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="57" selection-start="3137" selection-end="3137" vertical-scroll-proportion="1.2819905">
+        <state line="119" column="23" selection-start="2897" selection-end="2897" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#737#749#0" expanded="true" />
-            <element signature="e#2904#2922#0" expanded="true" />
+            <element signature="e#744#756#0" expanded="true" />
+            <element signature="e#2958#2976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MultiRedBlackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="227" column="27" selection-start="5907" selection-end="5907" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MultiBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="279" column="12" selection-start="6408" selection-end="6408" vertical-scroll-proportion="0.49222797">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#11681#11699#0" expanded="true" />
           </folding>
         </state>
       </provider>
