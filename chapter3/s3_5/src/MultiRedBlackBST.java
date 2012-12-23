@@ -177,6 +177,15 @@ public class MultiRedBlackBST<Key extends Comparable<Key>, Value> {
         }
         return h;
     }
+    public boolean contains(Key key)
+    {
+        return get(key) != null;
+    }
+    public void deleteAll(Key key)
+    {
+        while(contains(key))
+            delete(key);
+    }
     public void delete(Key key)
     {
         if(!isRed(root.left) && !isRed(root.right))
@@ -217,14 +226,6 @@ public class MultiRedBlackBST<Key extends Comparable<Key>, Value> {
                 h.right = delete(h.right, key);
         }
 
-        h = balance(h);
-        if(h.key.equals(key))
-            h = delete(h, key);
-        else
-        {
-            h.left = delete(h.left, key);
-            h.right = delete(h.right, key);
-        }
         return balance(h);
     }
 
@@ -574,7 +575,7 @@ public class MultiRedBlackBST<Key extends Comparable<Key>, Value> {
         while (bst.size() != 0)
         {
             int s = StdIn.readInt();
-            bst.delete(s);
+            bst.deleteAll(s);
             bst.draw();
             StdOut.println(bst.size());
         }

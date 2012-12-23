@@ -9,6 +9,10 @@ import java.util.HashMap;
  */
 public class SparseVector {
     private HashMap<Integer, Double> vector;
+    public SparseVector(SparseVector that)
+    {
+        vector = new HashMap<Integer, Double>(that.vector);
+    }
     public SparseVector()
     {
         vector = new HashMap<Integer, Double>();
@@ -19,7 +23,10 @@ public class SparseVector {
     }
     public double get(int i)
     {
-        return vector.get(i);
+        Double d = vector.get(i);
+        if(d == null)
+            return 0;
+        return d;
     }
     public void put(int i, double val)
     {
@@ -33,7 +40,15 @@ public class SparseVector {
             sum += get(item) * that[item];
         }
         return sum;
-
+    }
+    public double dot(SparseVector that)
+    {
+        double sum = 0;
+        for(int item : vector.keySet())
+        {
+            sum += get(item) * that.get(item);
+        }
+        return sum;
     }
     public void print()
     {
@@ -42,6 +57,29 @@ public class SparseVector {
             StdOut.print(i + ":" +  vector.get(i) + " ");
         }
         StdOut.println();
+    }
+    public SparseVector sum(SparseVector that)
+    {
+        if(that == null)
+            return new SparseVector(this);
+        SparseVector result = new SparseVector();
+        for(int i : vector.keySet())
+        {
+            double s = this.get(i) + that.get(i);
+            if(s != 0)
+                result.put(i, s);
+        }
+        for(int i : that.vector.keySet())
+        {
+            double s = this.get(i) + that.get(i);
+            if(s != 0)
+                result.put(i, s);
+        }
+        return result;
+    }
+    public Iterable<Integer>  keys()
+    {
+        return vector.keySet();
     }
     public static void main(String args[])
     {
@@ -73,6 +111,6 @@ public class SparseVector {
             b[i] = vectors[i].dot(x);
             StdOut.println(b[i]);
         }
-
+        vectors[0].sum(vectors[1]).print();
     }
 }

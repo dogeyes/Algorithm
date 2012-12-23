@@ -2,24 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MultiLinearProbingHashST.java" afterPath="$PROJECT_DIR$/src/MultiLinearProbingHashST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BSTMultiST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Concordance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EffectiveList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FullLookupCSV.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InvertST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InvertedConcordance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LRUCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MathSET.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NonOverlappingIntervalSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RandomAccessST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RegistrarScheduling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UniQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/p3_5_12.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/p3_5_13.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MultiRedBlackBST.java" afterPath="$PROJECT_DIR$/src/MultiRedBlackBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SparseVector.java" afterPath="$PROJECT_DIR$/src/SparseVector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="s3_5.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/DeDup.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356160961578" ignored="false" />
-    <file path="/fragment.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356163966238" ignored="false" />
+    <file path="/fragment.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356250751090" ignored="false" />
     <file path="/WhiteFilter.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356161734492" ignored="false" />
     <file path="/LookupCSV.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356162014498" ignored="false" />
     <file path="/LookupIndex.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356163523541" ignored="false" />
     <file path="/FileIndex.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356163921996" ignored="false" />
-    <file path="/SparseVector.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356164672361" ignored="false" />
+    <file path="/SparseVector.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356253182576" ignored="false" />
     <file path="/MySET.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356166419336" ignored="false" />
     <file path="/MyHashSET.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356166787756" ignored="false" />
-    <file path="/Dummy.txt" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356182362588" ignored="false" />
+    <file path="/Dummy.txt" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356241169412" ignored="false" />
     <file path="/MultiLinearProbingHashST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356178508861" ignored="false" />
     <file path="/MultiBST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356180058479" ignored="false" />
-    <file path="/MultiRedBlackBST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356181811959" ignored="false" />
+    <file path="/MultiRedBlackBST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356241753038" ignored="false" />
+    <file path="/p3_5_12.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356242085884" ignored="false" />
+    <file path="/p3_5_13.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356242791242" ignored="false" />
+    <file path="/InvertST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356243789538" ignored="false" />
+    <file path="/MathSET.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356247984325" ignored="false" />
+    <file path="/BSTMultiST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356248894568" ignored="false" />
+    <file path="/Concordance.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356249559608" ignored="false" />
+    <file path="/InvertedConcordance.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356249890929" ignored="false" />
+    <file path="/FullLookupCSV.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356250828671" ignored="false" />
+    <file path="/SparseMatrice.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356252166288" ignored="false" />
+    <file path="/SparseMatric.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356259221339" ignored="false" />
+    <file path="/NonOverlappingIntervalSearch.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356259997172" ignored="false" />
+    <file path="/RegistrarScheduling.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356260421145" ignored="false" />
+    <file path="/LRUCache.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356261797990" ignored="false" />
+    <file path="/EffectiveList.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356263965827" ignored="false" />
+    <file path="/UniQueue.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356264381821" ignored="false" />
+    <file path="/RandomAccessST.java" changelist="4a59bf05-f5b4-46eb-91fd-74e36ffa5059" time="1356265454481" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,40 +65,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/LookupIndex.java" line="16" class="LookupIndex" package="">
         <option name="ENABLED" value="true" />
@@ -111,7 +108,55 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/SparseVector.java" line="113" class="SparseVector" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -122,45 +167,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyHashSET.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyHashSET.java">
+      <file leaf-file-name="LRUCache.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="9" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1278#1287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultiLinearProbingHashST.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MultiLinearProbingHashST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="23" selection-start="2897" selection-end="2897" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#744#756#0" expanded="true" />
-                <element signature="e#2958#2976#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultiBST.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MultiBST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="279" column="12" selection-start="6408" selection-end="6408" vertical-scroll-proportion="0.0">
+            <state line="37" column="36" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#11681#11699#0" expanded="true" />
+                <element signature="e#1840#1849#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiRedBlackBST.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MultiRedBlackBST.java">
+      <file leaf-file-name="EffectiveList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EffectiveList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="227" column="27" selection-start="5907" selection-end="5907" vertical-scroll-proportion="0.25714287">
+            <state line="136" column="36" selection-start="3334" selection-end="3334" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2880#2889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UniQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="25" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#890#899#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomAccessST.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RandomAccessST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="34" selection-start="558" selection-end="558" vertical-scroll-proportion="-2.8894117">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2093#2111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedBlackBST.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/RedBlackBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="0" selection-start="2507" selection-end="2507" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,25 +241,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/DeDup.java" />
-        <option value="$PROJECT_DIR$/src/WhiteFilter.java" />
-        <option value="$PROJECT_DIR$/src/LookupCSV.java" />
-        <option value="$PROJECT_DIR$/src/LookupIndex.java" />
-        <option value="$PROJECT_DIR$/src/FileIndex.java" />
+        <option value="$PROJECT_DIR$/src/p3_5_13.java" />
+        <option value="$PROJECT_DIR$/src/InvertST.java" />
+        <option value="$PROJECT_DIR$/src/MathSET.java" />
+        <option value="$PROJECT_DIR$/src/BSTMultiST.java" />
+        <option value="$PROJECT_DIR$/src/Concordance.java" />
+        <option value="$PROJECT_DIR$/src/InvertedConcordance.java" />
+        <option value="$PROJECT_DIR$/src/FullLookupCSV.java" />
+        <option value="$PROJECT_DIR$/src/SparseMatrice.java" />
         <option value="$PROJECT_DIR$/src/SparseVector.java" />
-        <option value="$PROJECT_DIR$/src/MySET.java" />
-        <option value="$PROJECT_DIR$/src/MyHashSET.java" />
-        <option value="$PROJECT_DIR$/src/MultiLinearProbingHashST.java" />
-        <option value="$PROJECT_DIR$/src/MultiBST.java" />
-        <option value="$PROJECT_DIR$/src/MultiRedBlackBST.java" />
+        <option value="$PROJECT_DIR$/src/SparseMatric.java" />
+        <option value="$PROJECT_DIR$/src/NonOverlappingIntervalSearch.java" />
+        <option value="$PROJECT_DIR$/src/RegistrarScheduling.java" />
+        <option value="$PROJECT_DIR$/src/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/EffectiveList.java" />
+        <option value="$PROJECT_DIR$/src/UniQueue.java" />
+        <option value="$PROJECT_DIR$/src/RandomAccessST.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="539" />
-    <option name="y" value="22" />
-    <option name="width" value="901" />
-    <option name="height" value="820" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -230,8 +292,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,17 +330,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="172" />
-    <property name="project.structure.proportion" value="0.0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="172" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="176" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../stdlib.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="173" />
@@ -304,31 +366,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.MultiBST">
-    <configuration default="false" name="MySET" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MySET" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s3_5" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MyHashSET" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MyHashSET" />
+  <component name="RunManager" selected="Application.RandomAccessST">
+    <configuration default="false" name="RegistrarScheduling" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="RegistrarScheduling" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -343,30 +383,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MultiLinearProbingHashST" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MultiLinearProbingHashST" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s3_5" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MultiBST" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MultiBST" />
+    <configuration default="false" name="LRUCache" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="LRUCache" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -381,8 +399,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MultiRedBlackBST" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MultiRedBlackBST" />
+    <configuration default="false" name="EffectiveList" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="EffectiveList" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -393,13 +411,39 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="s3_5" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UniQueue" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="UniQueue" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="s3_5" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RandomAccessST" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="RandomAccessST" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="../../algs4-data/tinyTale.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="s3_5" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -415,6 +459,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -442,19 +499,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -492,19 +536,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MySET" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MyHashSET" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MultiLinearProbingHashST" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MultiBST" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MultiRedBlackBST" />
+      <item index="0" class="java.lang.String" itemvalue="Application.RegistrarScheduling" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LRUCache" />
+      <item index="2" class="java.lang.String" itemvalue="Application.EffectiveList" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UniQueue" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RandomAccessST" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MultiBST" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MultiRedBlackBST" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MultiLinearProbingHashST" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MyHashSET" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MySET" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RandomAccessST" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UniQueue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EffectiveList" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LRUCache" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RegistrarScheduling" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -577,24 +621,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="539" y="22" width="901" height="820" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880846" sideWeight="0.48152563" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43137255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880846" sideWeight="0.49582836" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43115437" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3727399" sideWeight="0.4978479" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880846" sideWeight="0.49582836" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781956" sideWeight="0.4910608" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25268176" sideWeight="0.6711916" order="6" side_tool="true" content_ui="tabs" x="1068" y="312" width="212" height="153" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.108321376" sideWeight="0.6272601" order="6" side_tool="true" content_ui="tabs" x="1068" y="312" width="212" height="153" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25268176" sideWeight="0.6711916" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37405732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15208034" sideWeight="0.6272601" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3727399" sideWeight="0.49713057" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -664,121 +708,137 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SparseVector.java">
+    <entry file="file://$PROJECT_DIR$/src/Concordance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="25" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="19" column="31" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#316#340#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MySET.java">
+    <entry file="file://$PROJECT_DIR$/src/InvertedConcordance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeDup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WhiteFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="27" column="51" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#316#333#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LookupCSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
+        <state line="22" column="88" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LookupIndex.java">
+    <entry file="file://$PROJECT_DIR$/src/FullLookupCSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="36" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
+        <state line="21" column="15" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileIndex.java">
+    <entry file="file://$PROJECT_DIR$/src/BSTMultiST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="49" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
+        <state line="499" column="38" selection-start="12608" selection-end="12608" vertical-scroll-proportion="0.5976471">
+          <folding>
+            <element signature="e#997#1004#0" expanded="true" />
+            <element signature="e#12275#12293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/glassfish3/jdk/jre/lib/rt.jar!/java/util/HashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="11" selection-start="900" selection-end="900" vertical-scroll-proportion="0.3317647">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparseVector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="25" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
+        <state line="50" column="19" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/ST.java">
+    <entry file="file://$PROJECT_DIR$/src/SparseMatric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="24" selection-start="1741" selection-end="1748" vertical-scroll-proportion="-0.06387665" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MySET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="20" selection-start="1010" selection-end="1451" vertical-scroll-proportion="0.0">
+        <state line="21" column="19" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../s3_4/src/MyLinearProbingHashST.java">
+    <entry file="file://$PROJECT_DIR$/src/NonOverlappingIntervalSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="204" selection-end="3012" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyHashSET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="9" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+        <state line="29" column="34" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1278#1287#0" expanded="true" />
+            <element signature="e#326#344#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../s3_2/src/MyBST.java">
+    <entry file="file://$PROJECT_DIR$/src/RegistrarScheduling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="685" column="29" selection-start="259" selection-end="18605" vertical-scroll-proportion="0.7806638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiLinearProbingHashST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="23" selection-start="2897" selection-end="2897" vertical-scroll-proportion="0.0">
+        <state line="26" column="38" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#744#756#0" expanded="true" />
-            <element signature="e#2958#2976#0" expanded="true" />
+            <element signature="e#321#343#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiBST.java">
+    <entry file="file://$PROJECT_DIR$/src/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="12" selection-start="6408" selection-end="6408" vertical-scroll-proportion="0.0">
+        <state line="37" column="36" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11681#11699#0" expanded="true" />
+            <element signature="e#1840#1849#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiRedBlackBST.java">
+    <entry file="jar://C:/glassfish3/jdk/jre/lib/rt.jar!/java/lang/Iterable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="27" selection-start="5907" selection-end="5907" vertical-scroll-proportion="0.25714287">
+        <state line="7" column="23" selection-start="195" selection-end="195" vertical-scroll-proportion="0.2682353">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/RedBlackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="2507" selection-end="2507" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EffectiveList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="36" selection-start="3334" selection-end="3334" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2880#2889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UniQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="25" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#890#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RandomAccessST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="34" selection-start="558" selection-end="558" vertical-scroll-proportion="-2.8894117">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2093#2111#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
