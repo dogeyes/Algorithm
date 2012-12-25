@@ -10,7 +10,7 @@ public class TestSearch {
     {
         MyGraph G = new MyGraph(new In(args[0]));
         int s = Integer.parseInt(args[1]);
-        MyDepthFirstSearch search = new MyDepthFirstSearch(G, s);
+        UFSearch search = new UFSearch(G, s);
 
         for(int v = 0; v < G.V(); ++v)
         {

@@ -19,19 +19,29 @@ public class MyCC {
         {
             if(!marked[i])
             {
-                dfs(i);
+                bfs(i);
                 count++;
             }
         }
     }
-    private void dfs(int v)
+    private void bfs(int v)
     {
+        Queue<Integer> queue = new Queue<Integer>();
         marked[v] = true;
         id[v] = count;
-        for(int w: G.adj(v))
+        queue.enqueue(v);
+        while (!queue.isEmpty())
         {
-            if(!marked[w])
-                dfs(w);
+            v = queue.dequeue();
+            for(int w: G.adj(v))
+            {
+                if(!marked[w])
+                {
+                    marked[w] = true;
+                    id[w] = count;
+                    queue.enqueue(w);
+                }
+            }
         }
     }
     private boolean connected(int v, int w)

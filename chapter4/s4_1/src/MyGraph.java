@@ -9,6 +9,18 @@ public class MyGraph {
     private int V;
     private int E;
     private Bag<Integer>[] adj;
+    public MyGraph(MyGraph that)
+    {
+        this(that.V());
+        E = that.E;
+        adj = (Bag<Integer>[])new Bag[V];
+        for(int i = 0; i < V; ++i)
+        {
+            adj[i] = new Bag<Integer>();
+            for(int w: that.adj[i])
+                adj[i].add(w);
+        }
+    }
     public MyGraph(int V)
     {
         this.E = 0;
@@ -38,6 +50,8 @@ public class MyGraph {
     }
     public void addEdge(int v, int w)
     {
+        //if(v == w || hasEdge(v, w))
+        //    return;
         E++;
         adj[v].add(w);
         adj[w].add(v);
@@ -45,6 +59,13 @@ public class MyGraph {
     public Iterable<Integer> adj(int v)
     {
         return adj[v];
+    }
+    public boolean hasEdge(int v, int w)
+    {
+        for(int i: adj(v))
+            if(i == w)
+                return true;
+        return false;
     }
     public String toString()
     {
@@ -65,6 +86,12 @@ public class MyGraph {
     public static void main(String[] args)
     {
         MyGraph  graph = new MyGraph(new In(args[0]));
+        MyGraph graph2 = new MyGraph(graph);
+        graph2.addEdge(0,graph2.V() - 1);
         StdOut.println(graph);
+        StdOut.println("\n" + graph2);
+        StdOut.println(graph2.hasEdge(4, 3));
+        StdOut.println(graph2.hasEdge(7, 9));
+
     }
 }

@@ -11,6 +11,8 @@ public class MyBreadFirstPaths {
     private final int s;
     private MyGraph G;
     private int edgeTo[];
+    private int distTo[];
+    private int maxDist;
     private boolean marked[];
     public MyBreadFirstPaths(MyGraph G, int s)
     {
@@ -18,6 +20,7 @@ public class MyBreadFirstPaths {
         this.G = G;
         edgeTo = new int[G.V()];
         marked = new boolean[G.V()];
+        distTo = new int[G.V()];
         bfs(s);
     }
     private void bfs(int s)
@@ -33,13 +36,19 @@ public class MyBreadFirstPaths {
                 if(!marked[w])
                 {
                     marked[w] = true;
+                    distTo[w] = distTo[v] + 1;
+                    if(distTo[w] > maxDist)
+                        maxDist = distTo[w];
                     edgeTo[w] = v;
                     queue.enqueue(w);
                 }
             }
         }
     }
-
+    public int distTo(int v)
+    {
+        return distTo[v];
+    }
     public boolean hasPathTo(int v)
     {
         return marked[v];
@@ -51,5 +60,9 @@ public class MyBreadFirstPaths {
             stack.push(v);
         stack.push(s);
         return stack;
+    }
+    public int maxDist()
+    {
+        return maxDist;
     }
 }

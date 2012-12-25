@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created with IntelliJ IDEA.
  * User: dexctor
@@ -8,12 +10,22 @@
 public class TestSymbolGraph {
     public static void main(String[] args)
     {
-        MySymbolGraph symbolGraph = new MySymbolGraph("routes.txt", " ");
+        MySymbolGraph symbolGraph = new MySymbolGraph("movies.txt", "/");
+        MyCC cc = new MyCC(symbolGraph.G());
+
+        StdOut.println(cc.count());
+        String name = "Bacon, Kevin";
+        if(!symbolGraph.contains(name))
+            return;
+        for(int w: symbolGraph.G().adj(symbolGraph.index(name)))
+            StdOut.println(symbolGraph.name(w));
+
+        int[] comNum = new int[cc.count()];
         for(int v = 0; v <  symbolGraph.G().V(); ++v)
         {
-            StdOut.println(symbolGraph.name(v) + ": ");
-            for(int w: symbolGraph.G().adj(v))
-                StdOut.println("    " + symbolGraph.name(w));
+            comNum[cc.id(v)] ++;
         }
+        StdOut.println(Arrays.toString(comNum));
+        StdOut.println(cc.id(symbolGraph.index(name)));
     }
 }

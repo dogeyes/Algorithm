@@ -10,12 +10,13 @@ public class TestPath {
     {
         MyGraph G = new MyGraph(new In(args[0]));
         int s = Integer.parseInt(args[1]);
-        MyDepthFirstPaths paths = new MyDepthFirstPaths(G, s);
+        MyBreadFirstPaths paths = new MyBreadFirstPaths(G, s);
 
         for(int v = 0; v < G.V(); ++v)
         {
             if(paths.hasPathTo(v))
             {
+                StdOut.print(paths.distTo(v) + " ");
                 for(int w : paths.pathTo(v))
                 {
                     if(w == s)
