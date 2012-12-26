@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5782a28a-60b2-46fd-95e8-720b8dffe507" name="Default" comment="" />
-    <ignored path="s4_1.iws" />
+    <list default="true" id="ddf7db72-d4bd-4364-8e26-c328040a1f0c" name="Default" comment="" />
+    <ignored path="s4_2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MyGraph.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356399947329" ignored="false" />
-    <file path="/fragment.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356431300248" ignored="false" />
-    <file path="/TestSearch.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356400875588" ignored="false" />
-    <file path="/MyDepthFirstSearch.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356355127359" ignored="false" />
-    <file path="/MyPaths.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356355522583" ignored="false" />
-    <file path="/TestPath.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356401582278" ignored="false" />
-    <file path="/MyDepthFirstPaths.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356356756296" ignored="false" />
-    <file path="/MyBreadFirstPaths.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356402216421" ignored="false" />
-    <file path="/MyCC.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356432098352" ignored="false" />
-    <file path="/TestCC.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356357839464" ignored="false" />
-    <file path="/MyCycle.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356358404565" ignored="false" />
-    <file path="/TestCycle.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356358977029" ignored="false" />
-    <file path="/MyTwoColor.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356358781649" ignored="false" />
-    <file path="/TestTwoColor.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356358848443" ignored="false" />
-    <file path="/MySymbolGraph.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356359531970" ignored="false" />
-    <file path="/TestSymbolGraph.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356432706438" ignored="false" />
-    <file path="/MyDegreeOfSeparation.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356360169040" ignored="false" />
-    <file path="/UFSearch.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356400849648" ignored="false" />
-    <file path="/MyGraphProperties.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356412575281" ignored="false" />
-    <file path="/TestGraphProperties.java" changelist="5782a28a-60b2-46fd-95e8-720b8dffe507" time="1356412163202" ignored="false" />
+    <file path="/MyDigraph.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356528154826" ignored="false" />
+    <file path="/TestMyDigraph.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356528088326" ignored="false" />
+    <file path="/MyDirectedDFS.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356528607882" ignored="false" />
+    <file path="/TestMyDirectedDFS.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356528798756" ignored="false" />
+    <file path="/MyDirectedCycle.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356529864287" ignored="false" />
+    <file path="/TestMyDirectedCycle.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356529693337" ignored="false" />
+    <file path="/MyTopological.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356530685591" ignored="false" />
+    <file path="/MyDepthFirstOrder.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356530435383" ignored="false" />
+    <file path="/TestMyDepthFistOrder.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356530414467" ignored="false" />
+    <file path="/TestMyTopological.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356530934776" ignored="false" />
+    <file path="/fragment.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356531090115" ignored="false" />
+    <file path="/MyKosarajuSCC.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356531853476" ignored="false" />
+    <file path="/TestMyKosarajuSCC.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356531887680" ignored="false" />
+    <file path="/MyTransitiveClosure.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356532044418" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +67,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/MyGraph.java" line="87" class="MyGraph" package="">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/TestMyTopological.java" line="13" class="TestMyTopological" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -94,68 +88,97 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="s4_1" />
+    <favorites_list name="s4_2" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyGraphProperties.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyGraphProperties.java">
+      <file leaf-file-name="MyDirectedDFS.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyDirectedDFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="43" selection-start="1785" selection-end="1785" vertical-scroll-proportion="0.0">
+            <state line="36" column="25" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestGraphProperties.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestGraphProperties.java">
+      <file leaf-file-name="TestMyDirectedDFS.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestMyDirectedDFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="188" selection-end="637" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#362#371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyTopological.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyTopological.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSymbolGraph.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestSymbolGraph.java">
+      <file leaf-file-name="TestMyTopological.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestMyTopological.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="51" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyGraph.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MyGraph.java">
+      <file leaf-file-name="MyKosarajuSCC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyKosarajuSCC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="10" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.027417028">
+            <state line="16" column="21" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySymbolGraph.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MySymbolGraph.java">
+      <file leaf-file-name="TestMyKosarajuSCC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestMyKosarajuSCC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0">
+            <state line="17" column="41" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyCC.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyCC.java">
+      <file leaf-file-name="MyTransitiveClosure.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MyTransitiveClosure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="32" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
+            <state line="17" column="32" selection-start="485" selection-end="485" vertical-scroll-proportion="0.6086956">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCC.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestCC.java">
+      <file leaf-file-name="tinyDG1.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tinyDG1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+            <state line="16" column="5" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMyDepthFistOrder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestMyDepthFistOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="68" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMyDirectedCycle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestMyDirectedCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="51" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,22 +194,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/MyCycle.java" />
-        <option value="$PROJECT_DIR$/src/MyTwoColor.java" />
-        <option value="$PROJECT_DIR$/src/TestTwoColor.java" />
-        <option value="$PROJECT_DIR$/twoColor.txt" />
-        <option value="$PROJECT_DIR$/src/TestCycle.java" />
-        <option value="$PROJECT_DIR$/src/MySymbolGraph.java" />
-        <option value="$PROJECT_DIR$/src/MyDegreeOfSeparation.java" />
-        <option value="$PROJECT_DIR$/src/UFSearch.java" />
-        <option value="$PROJECT_DIR$/src/TestSearch.java" />
-        <option value="$PROJECT_DIR$/src/TestPath.java" />
-        <option value="$PROJECT_DIR$/src/MyBreadFirstPaths.java" />
-        <option value="$PROJECT_DIR$/src/TestGraphProperties.java" />
-        <option value="$PROJECT_DIR$/src/MyGraphProperties.java" />
-        <option value="$PROJECT_DIR$/src/MyCC.java" />
-        <option value="$PROJECT_DIR$/src/TestSymbolGraph.java" />
-        <option value="$PROJECT_DIR$/src/MyGraph.java" />
+        <option value="$PROJECT_DIR$/src/TestMyDigraph.java" />
+        <option value="$PROJECT_DIR$/src/MyDigraph.java" />
+        <option value="$PROJECT_DIR$/tinyDG.txt" />
+        <option value="$PROJECT_DIR$/src/MyDirectedDFS.java" />
+        <option value="$PROJECT_DIR$/src/TestMyDirectedDFS.java" />
+        <option value="$PROJECT_DIR$/src/MyDirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/MyDepthFirstOrder.java" />
+        <option value="$PROJECT_DIR$/src/MyTopological.java" />
+        <option value="$PROJECT_DIR$/tinyDG1.txt" />
+        <option value="$PROJECT_DIR$/src/TestMyDirectedCycle.java" />
+        <option value="$PROJECT_DIR$/src/TestMyTopological.java" />
+        <option value="$PROJECT_DIR$/src/TestMyDepthFistOrder.java" />
+        <option value="$PROJECT_DIR$/src/MyKosarajuSCC.java" />
+        <option value="$PROJECT_DIR$/src/TestMyKosarajuSCC.java" />
+        <option value="$PROJECT_DIR$/src/MyTransitiveClosure.java" />
       </list>
     </option>
   </component>
@@ -222,31 +244,32 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_1" />
+              <option name="myItemId" value="s4_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_1" />
+              <option name="myItemId" value="s4_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_1" />
+              <option name="myItemId" value="s4_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_1" />
+              <option name="myItemId" value="s4_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_1" />
+              <option name="myItemId" value="s4_2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -256,101 +279,110 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../stdlib.jar!/" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../stdlib.jar!/" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.TestSymbolGraph">
-    <configuration default="false" name="TestSearch" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestSearch" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="tinyG.txt 0" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Algorithm\Algorithm\chapter4\s4_2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestMyKosarajuSCC">
+    <configuration default="false" name="TestMyDigraph" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestMyDigraph" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_1" />
+      <module name="s4_2" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestPath" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestPath" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="tinyG.txt 0" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration default="false" name="TestMyDirectedCycle" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestMyDirectedCycle" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_1" />
+      <module name="s4_2" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestGraphProperties" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestGraphProperties" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="NoCircle.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration default="false" name="TestMyDepthFistOrder" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestMyDepthFistOrder" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_1" />
+      <module name="s4_2" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestSymbolGraph" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestSymbolGraph" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="tinyG.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration default="false" name="TestMyTopological" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestMyTopological" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_1" />
+      <module name="s4_2" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestCC" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestCC" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="tinyG.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration default="false" name="TestMyKosarajuSCC" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestMyKosarajuSCC" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_1" />
+      <module name="s4_2" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -411,12 +443,12 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="tinyG.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -445,19 +477,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestSearch" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestPath" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestGraphProperties" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestSymbolGraph" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestCC" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestMyDigraph" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestMyDirectedCycle" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestMyDepthFistOrder" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestMyTopological" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestMyKosarajuSCC" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestSymbolGraph" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestCC" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestGraphProperties" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestPath" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestSearch" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestMyKosarajuSCC" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestMyTopological" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestMyDepthFistOrder" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestMyDigraph" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestMyDirectedCycle" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -466,35 +498,17 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5782a28a-60b2-46fd-95e8-720b8dffe507" name="Default" comment="" />
-      <created>1356352873295</created>
-      <updated>1356352873295</updated>
+      <changelist id="ddf7db72-d4bd-4364-8e26-c328040a1f0c" name="Default" comment="" />
+      <created>1356527330730</created>
+      <updated>1356527330730</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -504,16 +518,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.67315716" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.67315716" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -578,96 +592,109 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/twoColor.txt">
+    <entry file="file://$PROJECT_DIR$/tinyDG.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyDegreeOfSeparation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="61" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="331" selection-end="339" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UFSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyBreadFirstPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="16" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyGraphProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="43" selection-start="1785" selection-end="1785" vertical-scroll-proportion="0.0">
+        <state line="12" column="1" selection-start="67" selection-end="67" vertical-scroll-proportion="0.2532751">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestGraphProperties.java">
+    <entry file="file://$PROJECT_DIR$/src/MyDigraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+        <state line="21" column="32" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyCC.java">
+    <entry file="file://$PROJECT_DIR$/src/TestMyDigraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="32" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="184" selection-end="325" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCC.java">
+    <entry file="file://$PROJECT_DIR$/src/MyDirectedCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="47" column="32" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MySymbolGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/MyDepthFirstOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.0">
+        <state line="21" column="36" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movies.txt">
+    <entry file="file://$PROJECT_DIR$/tinyDG1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="416" column="44" selection-start="366723" selection-end="366723" vertical-scroll-proportion="0.37857142" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestSymbolGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="51" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+        <state line="16" column="5" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/TestMyDirectedCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="10" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.027417028">
+        <state line="10" column="51" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyDirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="25" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestMyDepthFistOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="68" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyTopological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestMyTopological.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestMyDirectedDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="188" selection-end="637" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#362#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyKosarajuSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestMyKosarajuSCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyTransitiveClosure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="485" selection-end="485" vertical-scroll-proportion="0.6086956">
           <folding />
         </state>
       </provider>
@@ -725,7 +752,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>s4_1</last-edited>
+          <last-edited>s4_2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
