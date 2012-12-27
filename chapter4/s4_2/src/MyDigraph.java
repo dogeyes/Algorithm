@@ -9,6 +9,18 @@ public class MyDigraph {
     private int V;
     private int E;
     private Bag<Integer>[] graph;
+    public MyDigraph(MyDigraph other)
+    {
+        V = other.V;
+        E = other.E;
+        graph = new Bag[V];
+        for(int i = 0; i < V; ++i)
+        {
+            graph[i] = new Bag<Integer>();
+            for(int w: other.adj(i))
+                graph[i].add(w);
+        }
+    }
     public MyDigraph(int v)
     {
         this.V = v;
@@ -30,10 +42,18 @@ public class MyDigraph {
     }
     public void addEdge(int v, int w)
     {
+        //if(v == w || hasEdge(v, w))
+        //    return;
         E++;
         graph[v].add(w);
     }
-
+    public boolean hasEdge(int v, int w)
+    {
+        for(int i : adj(v))
+            if(i == w)
+                return true;
+        return false;
+    }
     public Iterable<Integer>  adj(int v)
     {
         return graph[v];
