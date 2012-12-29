@@ -1,40 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddf7db72-d4bd-4364-8e26-c328040a1f0c" name="Default" comment="" />
-    <ignored path="s4_2.iws" />
+    <list default="true" id="d51660c3-1116-4fd3-99f7-a17625a4d9bf" name="Default" comment="" />
+    <ignored path="s4_3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MyDigraph.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356568820705" ignored="false" />
-    <file path="/TestMyDigraph.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356570440946" ignored="false" />
-    <file path="/MyDirectedDFS.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356528607882" ignored="false" />
-    <file path="/TestMyDirectedDFS.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356528798756" ignored="false" />
-    <file path="/MyDirectedCycle.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356529864287" ignored="false" />
-    <file path="/TestMyDirectedCycle.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356529693337" ignored="false" />
-    <file path="/MyTopological.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356530685591" ignored="false" />
-    <file path="/MyDepthFirstOrder.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356530435383" ignored="false" />
-    <file path="/TestMyDepthFistOrder.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356530414467" ignored="false" />
-    <file path="/TestMyTopological.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356571684191" ignored="false" />
-    <file path="/fragment.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356606385068" ignored="false" />
-    <file path="/MyKosarajuSCC.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356531853476" ignored="false" />
-    <file path="/TestMyKosarajuSCC.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356531887680" ignored="false" />
-    <file path="/MyTransitiveClosure.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356532044418" ignored="false" />
-    <file path="/MyDegrees.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356570260677" ignored="false" />
-    <file path="/CheckTopological.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356571429664" ignored="false" />
-    <file path="/DirectedEulerianCycle.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356592947080" ignored="false" />
-    <file path="/TestDirectedEulerianCycle.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356591738708" ignored="false" />
-    <file path="/LCA.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356614257091" ignored="false" />
-    <file path="/TestLCA.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356614234923" ignored="false" />
-    <file path="/SSCInExercise.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356596593415" ignored="false" />
-    <file path="/TestSSCInExercise.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356596775051" ignored="false" />
-    <file path="/HamiltonianPathInDAG.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356598482508" ignored="false" />
-    <file path="/TestHamiltonianPathInDAG.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356598424733" ignored="false" />
-    <file path="/QueueBasedTopologicalSort.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356606343962" ignored="false" />
-    <file path="/TestQueueBasedTopologicalSort.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356606421894" ignored="false" />
-    <file path="/DrawDigraph.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356606908002" ignored="false" />
-    <file path="/ArithmetricExpression.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356609786031" ignored="false" />
-    <file path="/DirectedBFS.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356615057139" ignored="false" />
-    <file path="/TestDirectedBFS.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356614861771" ignored="false" />
-    <file path="/ShortestAncestralPath.java" changelist="ddf7db72-d4bd-4364-8e26-c328040a1f0c" time="1356615575750" ignored="false" />
+    <file path="/Edge.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356746607628" ignored="false" />
+    <file path="/EdgeWeightedGraph.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356744511535" ignored="false" />
+    <file path="/TestEdgeWeightedGraph.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356744458959" ignored="false" />
+    <file path="/MyLazyPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356746172034" ignored="false" />
+    <file path="/TestLazyPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356748233887" ignored="false" />
+    <file path="/MyPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356747618210" ignored="false" />
+    <file path="/MyKruskalMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356748516282" ignored="false" />
+    <file path="/TestKruskalMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356748636395" ignored="false" />
+    <file path="/MatrixEdgeWeightedGraph.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356763103764" ignored="false" />
+    <file path="/fragment.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356762882250" ignored="false" />
+    <file path="/Matrix.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356762907010" ignored="false" />
+    <file path="/AddNewEdge.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356765903747" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,64 +65,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/TestMyTopological.java" line="15" class="TestMyTopological" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/TestDirectedEulerianCycle.java" line="25" class="TestDirectedEulerianCycle" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/ArithmetricExpression.java" line="92" class="ArithmetricExpression" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/LCA.java" line="33" class="LCA" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/TestLCA.java" line="14" class="TestLCA" package="">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/TestLazyPrimMST.java" line="12" class="TestLazyPrimMST" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -161,59 +86,100 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="s4_2" />
+    <favorites_list name="s4_3" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LCA.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LCA.java">
+      <file leaf-file-name="TestLazyPrimMST.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestLazyPrimMST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="112" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+            <state line="18" column="25" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectedBFS.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DirectedBFS.java">
+      <file leaf-file-name="tinyEWG1.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tinyEWG1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+            <state line="1" column="2" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShortestAncestralPath.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ShortestAncestralPath.java">
+      <file leaf-file-name="EdgeWeightedGraph.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EdgeWeightedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="117" selection-start="874" selection-end="874" vertical-scroll-proportion="0.5151515">
+            <state line="52" column="14" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1165#1171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPrimMST.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MyPrimMST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="78" selection-start="962" selection-end="962" vertical-scroll-proportion="0.65217394">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tinyDG6.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tinyDG6.txt">
+      <file leaf-file-name="TestPrimMST.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestPrimMST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+            <state line="19" column="50" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestDirectedBFS.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestDirectedBFS.java">
+      <file leaf-file-name="MatrixEdgeWeightedGraph.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MatrixEdgeWeightedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="186" selection-end="680" vertical-scroll-proportion="0.0">
+            <state line="75" column="36" selection-start="1901" selection-end="1901" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1139#1145#0" expanded="true" />
+                <element signature="e#1414#1420#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNewEdge.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AddNewEdge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="25" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestLCA.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestLCA.java">
+      <file leaf-file-name="Matrix.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+            <state line="7" column="14" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyKruskalMST.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyKruskalMST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestKruskalMST.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestKruskalMST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -229,22 +195,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/HamiltonianPathInDAG.java" />
-        <option value="$PROJECT_DIR$/tinyDG1.txt" />
-        <option value="$PROJECT_DIR$/tinyDG5.txt" />
-        <option value="$PROJECT_DIR$/src/TestHamiltonianPathInDAG.java" />
-        <option value="$PROJECT_DIR$/src/QueueBasedTopologicalSort.java" />
-        <option value="$PROJECT_DIR$/src/TestQueueBasedTopologicalSort.java" />
-        <option value="$PROJECT_DIR$/src/DrawDigraph.java" />
-        <option value="$PROJECT_DIR$/src/ArithmetricExpression.java" />
-        <option value="$PROJECT_DIR$/Arithmetric.txt" />
-        <option value="$PROJECT_DIR$/tinyDG4.txt" />
-        <option value="$PROJECT_DIR$/src/TestLCA.java" />
-        <option value="$PROJECT_DIR$/src/LCA.java" />
-        <option value="$PROJECT_DIR$/src/TestDirectedBFS.java" />
-        <option value="$PROJECT_DIR$/src/DirectedBFS.java" />
-        <option value="$PROJECT_DIR$/tinyDG6.txt" />
-        <option value="$PROJECT_DIR$/src/ShortestAncestralPath.java" />
+        <option value="$PROJECT_DIR$/src/TestEdgeWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/EdgeWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/MyLazyPrimMST.java" />
+        <option value="$PROJECT_DIR$/src/Edge.java" />
+        <option value="$PROJECT_DIR$/src/MyPrimMST.java" />
+        <option value="$PROJECT_DIR$/src/TestLazyPrimMST.java" />
+        <option value="$PROJECT_DIR$/src/MyKruskalMST.java" />
+        <option value="$PROJECT_DIR$/src/TestKruskalMST.java" />
+        <option value="$PROJECT_DIR$/tinyEWG1.txt" />
+        <option value="$PROJECT_DIR$/src/TestPrimMST.java" />
+        <option value="$PROJECT_DIR$/src/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/MatrixEdgeWeightedGraph.java" />
+        <option value="$PROJECT_DIR$/src/AddNewEdge.java" />
       </list>
     </option>
   </component>
@@ -280,33 +243,32 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_2" />
+              <option name="myItemId" value="s4_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_2" />
+              <option name="myItemId" value="s4_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_2" />
+              <option name="myItemId" value="s4_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_2" />
+              <option name="myItemId" value="s4_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_2" />
+              <option name="myItemId" value="s4_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -314,8 +276,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AddNewEdge.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,19 +308,22 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../stdlib.jar!/" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Algorithm\Algorithm\chapter4\s4_2" />
+      <recent name="D:\Algorithm\Algorithm\chapter4\s4_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortestAncestralPath">
-    <configuration default="false" name="DrawDigraph" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="DrawDigraph" />
+  <component name="RunManager" selected="Application.AddNewEdge">
+    <configuration default="false" name="TestLazyPrimMST" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestLazyPrimMST" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -348,23 +332,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_2" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArithmetricExpression" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ArithmetricExpression" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_2" />
+      <module name="s4_3" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -376,8 +344,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestLCA" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestLCA" />
+    <configuration default="false" name="TestPrimMST" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestPrimMST" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -386,36 +354,14 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_2" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestDirectedBFS" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestDirectedBFS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_2" />
+      <module name="s4_3" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ShortestAncestralPath" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ShortestAncestralPath" />
+    <configuration default="false" name="TestKruskalMST" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestKruskalMST" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -424,7 +370,39 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_2" />
+      <module name="s4_3" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Matrix" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Matrix" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="s4_3" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AddNewEdge" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="AddNewEdge" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="s4_3" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -519,19 +497,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DrawDigraph" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ArithmetricExpression" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestLCA" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestDirectedBFS" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ShortestAncestralPath" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestLazyPrimMST" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestPrimMST" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestKruskalMST" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Matrix" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AddNewEdge" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ShortestAncestralPath" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestDirectedBFS" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestLCA" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArithmetricExpression" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DrawDigraph" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AddNewEdge" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Matrix" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestPrimMST" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestLazyPrimMST" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestKruskalMST" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -542,15 +520,15 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ddf7db72-d4bd-4364-8e26-c328040a1f0c" name="Default" comment="" />
-      <created>1356527330730</created>
-      <updated>1356527330730</updated>
+      <changelist id="d51660c3-1116-4fd3-99f7-a17625a4d9bf" name="Default" comment="" />
+      <created>1356742814383</created>
+      <updated>1356742814383</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -560,16 +538,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.67315716" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.67315716" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -634,108 +612,105 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestHamiltonianPathInDAG.java">
+    <entry file="file://$PROJECT_DIR$/src/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Arithmetric.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DrawDigraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="15" selection-start="658" selection-end="658" vertical-scroll-proportion="0.2173913">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinyDG1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="29" selection-end="29" vertical-scroll-proportion="0.3043478" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestMyTopological.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="215" selection-end="1112" vertical-scroll-proportion="-0.33187774">
-          <folding>
-            <element signature="e#821#830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../stdlib.jar!/In.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="0" selection-start="3508" selection-end="3508" vertical-scroll-proportion="0.279476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArithmetricExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="35" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.4978166">
+        <state line="25" column="27" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="3229" selection-end="3229" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LCA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="112" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0">
+        <state line="129" column="0" selection-start="3229" selection-end="3229" vertical-scroll-proportion="0.33251232">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinyDG5.txt">
+    <entry file="file://$PROJECT_DIR$/src/MyLazyPrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestLCA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+        <state line="34" column="34" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinyDG4.txt">
+    <entry file="file://$PROJECT_DIR$/src/TestEdgeWeightedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestDirectedBFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="186" selection-end="680" vertical-scroll-proportion="0.0">
+        <state line="8" column="38" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinyDG6.txt">
+    <entry file="file://$PROJECT_DIR$/src/MyKruskalMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DirectedBFS.java">
+    <entry file="file://$PROJECT_DIR$/src/TestKruskalMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+        <state line="17" column="20" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShortestAncestralPath.java">
+    <entry file="file://$PROJECT_DIR$/src/TestLazyPrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="117" selection-start="874" selection-end="874" vertical-scroll-proportion="0.5151515">
+        <state line="18" column="25" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinyEWG1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="14" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1165#1171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestPrimMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="50" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixEdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="36" selection-start="1901" selection-end="1901" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1139#1145#0" expanded="true" />
+            <element signature="e#1414#1420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddNewEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="25" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyPrimMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="78" selection-start="962" selection-end="962" vertical-scroll-proportion="0.65217394">
           <folding />
         </state>
       </provider>
@@ -793,7 +768,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>s4_2</last-edited>
+          <last-edited>s4_3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
