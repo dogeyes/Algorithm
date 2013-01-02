@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d51660c3-1116-4fd3-99f7-a17625a4d9bf" name="Default" comment="" />
-    <ignored path="s4_3.iws" />
+    <list default="true" id="aa59d589-68e5-4061-ae06-1b172f6aa85e" name="Default" comment="" />
+    <ignored path="s4_4.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Edge.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356746607628" ignored="false" />
-    <file path="/EdgeWeightedGraph.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356744511535" ignored="false" />
-    <file path="/TestEdgeWeightedGraph.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356744458959" ignored="false" />
-    <file path="/MyLazyPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356746172034" ignored="false" />
-    <file path="/TestLazyPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356748233887" ignored="false" />
-    <file path="/MyPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356783692479" ignored="false" />
-    <file path="/MyKruskalMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356748516282" ignored="false" />
-    <file path="/TestKruskalMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356748636395" ignored="false" />
-    <file path="/MatrixEdgeWeightedGraph.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356763103764" ignored="false" />
-    <file path="/fragment.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356783550237" ignored="false" />
-    <file path="/Matrix.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356762907010" ignored="false" />
-    <file path="/AddNewEdge.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356765903747" ignored="false" />
-    <file path="/ReverseDeleteAlgorithm.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356781814867" ignored="false" />
-    <file path="/DrawGraph.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356783331341" ignored="false" />
-    <file path="/DrawPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356783887354" ignored="false" />
-    <file path="/TestDrawPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356783985393" ignored="false" />
-    <file path="/DenseGraphPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356785643812" ignored="false" />
-    <file path="/TestDenseGraphPrimMST.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356785398028" ignored="false" />
-    <file path="/SpecifiedSet.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356787022822" ignored="false" />
-    <file path="/TestSpecifiedSet.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356787009630" ignored="false" />
-    <file path="/Certification.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356789486170" ignored="false" />
-    <file path="/TestCertification.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356789766164" ignored="false" />
-    <file path="/Cycle.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356789400556" ignored="false" />
-    <file path="/TestHasCycle.java" changelist="d51660c3-1116-4fd3-99f7-a17625a4d9bf" time="1356789342534" ignored="false" />
+    <file path="/DirectedEdge.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357131483858" ignored="false" />
+    <file path="/EdgeWeightedDigraph.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357087821662" ignored="false" />
+    <file path="/TestEdgeWeightedDigraph.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357087690689" ignored="false" />
+    <file path="/TestSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357089791262" ignored="false" />
+    <file path="/MyDijkstraSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357103009184" ignored="false" />
+    <file path="/MyAcyclicSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357090376299" ignored="false" />
+    <file path="/TestAcyclicSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357090440176" ignored="false" />
+    <file path="/MyCPM.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357127319714" ignored="false" />
+    <file path="/MyBellmanFordSp.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357093048509" ignored="false" />
+    <file path="/MyBellmanFordSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357130620433" ignored="false" />
+    <file path="/TestBellmanFordSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357094696023" ignored="false" />
+    <file path="/MyArbitrage.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357095395683" ignored="false" />
+    <file path="/Diameter.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357103553307" ignored="false" />
+    <file path="/EdgeWeightedCycleFinder.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357105240361" ignored="false" />
+    <file path="/TestEdgeWeightCycleFinder.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357105095448" ignored="false" />
+    <file path="/MyTopological.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357106324825" ignored="false" />
+    <file path="/TestTopological.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357105946368" ignored="false" />
+    <file path="/MyDepthFirstOrder.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357106311413" ignored="false" />
+    <file path="/fragment.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357127214872" ignored="false" />
+    <file path="/MulitSourceDijkstraSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357123973811" ignored="false" />
+    <file path="/MultiSourceDijkstraSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357124097385" ignored="false" />
+    <file path="/TestMultiSourceDijkstraSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357124719627" ignored="false" />
+    <file path="/EdgeWeightedMatrixDigraph.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357125840429" ignored="false" />
+    <file path="/TestMatrixDigraph.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357125666959" ignored="false" />
+    <file path="/MaxtrixSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357126497574" ignored="false" />
+    <file path="/TestMatrixSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357126415945" ignored="false" />
+    <file path="/MyAcyclicLP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357127276797" ignored="false" />
+    <file path="/p4_4_30.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357129469713" ignored="false" />
+    <file path="/TestP4_4_30.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357128616734" ignored="false" />
+    <file path="/LineGraph.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357130151060" ignored="false" />
+    <file path="/TestLineGraph.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357130136157" ignored="false" />
+    <file path="/MonotonicShortestPath.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357131614038" ignored="false" />
+    <file path="/LazyDijkstraSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357134853955" ignored="false" />
+    <file path="/TestLazyDijkstraSP.java" changelist="aa59d589-68e5-4061-ae06-1b172f6aa85e" time="1357134754984" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +53,21 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/TestLazyPrimMST.java" line="12" class="TestLazyPrimMST" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/p4_4_30.java" line="43" class="p4_4_30" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/TestP4_4_30.java" line="13" class="TestP4_4_30" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -58,11 +82,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-<<<<<<< HEAD
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-=======
->>>>>>> 992441abb9520bf85b53fe3f5f8bdeaa25642e85
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -103,89 +122,99 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="s4_3" />
+    <favorites_list name="s4_4" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
-      <file leaf-file-name="SpecifiedSet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SpecifiedSet.java">
+      <file leaf-file-name="MyBellmanFordSP.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MyBellmanFordSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="22" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0">
+            <state line="58" column="50" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.6972477">
+              <folding>
+                <element signature="e#2228#2242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonotonicShortestPath.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MonotonicShortestPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Certification.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Certification.java">
+      <file leaf-file-name="DirectedEdge.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DirectedEdge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="26" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
+            <state line="39" column="17" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cycle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cycle.java">
+      <file leaf-file-name="MyDijkstraSP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyDijkstraSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="21" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+            <state line="65" column="22" selection-start="183" selection-end="1699" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestHasCycle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestHasCycle.java">
+      <file leaf-file-name="LazyDijkstraSP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LazyDijkstraSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="29" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
+            <state line="64" column="28" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCertification.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestCertification.java">
+      <file leaf-file-name="MyAcyclicSP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyAcyclicSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="45" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0">
+            <state line="7" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1268#1282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestLazyDijkstraSP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestLazyDijkstraSP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="31" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSpecifiedSet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestSpecifiedSet.java">
+      <file leaf-file-name="TestSP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
+            <state line="25" column="13" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edgeSet.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/edgeSet.txt">
+      <file leaf-file-name="TestP4_4_30.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestP4_4_30.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="53" selection-end="53" vertical-scroll-proportion="0.11574074">
+            <state line="11" column="51" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-=======
->>>>>>> 992441abb9520bf85b53fe3f5f8bdeaa25642e85
-      <file leaf-file-name="tinyEWG.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tinyEWG.txt">
+      <file leaf-file-name="lineG.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lineG.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestEdgeWeightedGraph.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TestEdgeWeightedGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="40" selection-start="352" selection-end="352" vertical-scroll-proportion="0.38550726">
+            <state line="1" column="16" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,36 +230,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/MatrixEdgeWeightedGraph.java" />
-        <option value="$PROJECT_DIR$/src/AddNewEdge.java" />
-        <option value="$PROJECT_DIR$/src/ReverseDeleteAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/DrawGraph.java" />
-        <option value="$PROJECT_DIR$/src/MyPrimMST.java" />
-        <option value="$PROJECT_DIR$/src/DrawPrimMST.java" />
-        <option value="$PROJECT_DIR$/src/TestDrawPrimMST.java" />
-        <option value="$PROJECT_DIR$/src/TestDenseGraphPrimMST.java" />
-        <option value="$PROJECT_DIR$/src/DenseGraphPrimMST.java" />
-        <option value="$PROJECT_DIR$/src/TestSpecifiedSet.java" />
-        <option value="$PROJECT_DIR$/src/SpecifiedSet.java" />
-        <option value="$PROJECT_DIR$/src/TestHasCycle.java" />
-        <option value="$PROJECT_DIR$/src/Cycle.java" />
-        <option value="$PROJECT_DIR$/src/Certification.java" />
-        <option value="$PROJECT_DIR$/src/TestCertification.java" />
-        <option value="$PROJECT_DIR$/edgeSet.txt" />
+        <option value="$PROJECT_DIR$/src/EdgeWeightedMatrixDigraph.java" />
+        <option value="$PROJECT_DIR$/src/TestMatrixSP.java" />
+        <option value="$PROJECT_DIR$/src/MaxtrixSP.java" />
+        <option value="$PROJECT_DIR$/src/MyAcyclicLP.java" />
+        <option value="$PROJECT_DIR$/src/MyCPM.java" />
+        <option value="$PROJECT_DIR$/src/TestP4_4_30.java" />
+        <option value="$PROJECT_DIR$/src/p4_4_30.java" />
+        <option value="$PROJECT_DIR$/lineG.txt" />
+        <option value="$PROJECT_DIR$/src/TestLineGraph.java" />
+        <option value="$PROJECT_DIR$/src/LineGraph.java" />
+        <option value="$PROJECT_DIR$/src/TestBellmanFordSP.java" />
+        <option value="$PROJECT_DIR$/src/MyBellmanFordSP.java" />
+        <option value="$PROJECT_DIR$/src/DirectedEdge.java" />
+        <option value="$PROJECT_DIR$/src/MonotonicShortestPath.java" />
+        <option value="$PROJECT_DIR$/src/TestLazyDijkstraSP.java" />
+        <option value="$PROJECT_DIR$/src/LazyDijkstraSP.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="819" />
-=======
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
->>>>>>> 992441abb9520bf85b53fe3f5f8bdeaa25642e85
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -258,57 +281,69 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_3" />
+              <option name="myItemId" value="s4_4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_3" />
+              <option name="myItemId" value="s4_4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="s4_3" />
+              <option name="myItemId" value="s4_4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4_4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4_4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../stdlib.jar!/" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="FullScreen" value="false" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="D:\Algorithm\Algorithm\chapter4\s4_3" />
+      <recent name="D:\Algorithm\Algorithm\chapter4\s4_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCertification">
-    <configuration default="false" name="TestDrawPrimMST" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestDrawPrimMST" />
+  <component name="RunManager" selected="Application.TestLazyDijkstraSP">
+    <configuration default="false" name="TestP4_4_30" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestP4_4_30" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -317,14 +352,36 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_3" />
+      <module name="s4_4" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestLineGraph" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestLineGraph" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="s4_4" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestDenseGraphPrimMST" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestDenseGraphPrimMST" />
+    <configuration default="false" name="TestBellmanFordSP" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestBellmanFordSP" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -333,14 +390,14 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_3" />
+      <module name="s4_4" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestSpecifiedSet" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestSpecifiedSet" />
+    <configuration default="false" name="TestLazyDijkstraSP" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestLazyDijkstraSP" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -349,14 +406,14 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_3" />
+      <module name="s4_4" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestCertification" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestCertification" />
+    <configuration default="false" name="TestSP" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestSP" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -365,23 +422,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_3" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestHasCycle" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestHasCycle" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="s4_3" />
+      <module name="s4_4" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -476,19 +517,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestDrawPrimMST" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestDenseGraphPrimMST" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestSpecifiedSet" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestCertification" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestHasCycle" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestP4_4_30" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestLineGraph" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestBellmanFordSP" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestLazyDijkstraSP" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestSP" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestCertification" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestSpecifiedSet" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestHasCycle" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestDenseGraphPrimMST" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestDrawPrimMST" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestLazyDijkstraSP" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestSP" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestBellmanFordSP" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestLineGraph" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestP4_4_30" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -497,58 +538,36 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d51660c3-1116-4fd3-99f7-a17625a4d9bf" name="Default" comment="" />
-      <created>1356742814383</created>
-      <updated>1356742814383</updated>
+      <changelist id="aa59d589-68e5-4061-ae06-1b172f6aa85e" name="Default" comment="" />
+      <created>1357086851064</created>
+      <updated>1357086851064</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="0" y="22" width="1440" height="819" extended-state="6" />
-=======
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
->>>>>>> 992441abb9520bf85b53fe3f5f8bdeaa25642e85
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32496512" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.9972106" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.67642957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32357043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266187" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -613,114 +632,124 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tinyEWG.txt">
+    <entry file="jar://$PROJECT_DIR$/../../stdlib.jar!/StdOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="149" vertical-scroll-proportion="0.0">
+        <state line="97" column="0" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestEdgeWeightedGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/p4_4_30.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="192" selection-end="349" vertical-scroll-proportion="0.0">
+        <state line="55" column="16" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2716#2730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LineGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinyEWG.txt">
+    <entry file="file://$PROJECT_DIR$/src/TestLineGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="149" vertical-scroll-proportion="0.0">
+        <state line="11" column="44" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestEdgeWeightedGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/TestBellmanFordSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="192" selection-end="349" vertical-scroll-proportion="0.0">
+        <state line="12" column="17" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EdgeWeightedGraph.java">
+    <entry file="file://$PROJECT_DIR$/tinyEWDn.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="-1.0795455">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpecifiedSet.java">
+    <entry file="file://$PROJECT_DIR$/lineG.txt">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="46" column="22" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0">
+        <state line="1" column="16" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Certification.java">
+    <entry file="file://$PROJECT_DIR$/src/DirectedEdge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="26" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
-=======
-        <state line="14" column="40" selection-start="352" selection-end="352" vertical-scroll-proportion="0.38550726">
->>>>>>> 992441abb9520bf85b53fe3f5f8bdeaa25642e85
+        <state line="39" column="17" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/Cycle.java">
+    <entry file="file://$PROJECT_DIR$/src/MonotonicShortestPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestHasCycle.java">
+    <entry file="file://$PROJECT_DIR$/src/MyDijkstraSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
+        <state line="65" column="22" selection-start="183" selection-end="1699" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCertification.java">
+    <entry file="file://$PROJECT_DIR$/src/TestP4_4_30.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0">
+        <state line="11" column="51" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestSpecifiedSet.java">
+    <entry file="file://$PROJECT_DIR$/src/TestSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
+        <state line="25" column="13" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edgeSet.txt">
+    <entry file="file://$PROJECT_DIR$/src/TestLazyDijkstraSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="53" selection-end="53" vertical-scroll-proportion="0.11574074">
+        <state line="18" column="31" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-=======
->>>>>>> 992441abb9520bf85b53fe3f5f8bdeaa25642e85
-    <entry file="file://$PROJECT_DIR$/tinyEWG.txt">
+    <entry file="file://$PROJECT_DIR$/src/LazyDijkstraSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="149" vertical-scroll-proportion="0.0">
+        <state line="64" column="28" selection-start="1671" selection-end="1671" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/TestEdgeWeightedGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/MyAcyclicSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="192" selection-end="349" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="7" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1268#1282#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-=======
->>>>>>> 992441abb9520bf85b53fe3f5f8bdeaa25642e85
+    <entry file="file://$PROJECT_DIR$/src/MyBellmanFordSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="50" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.6972477">
+          <folding>
+            <element signature="e#2228#2242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -774,7 +803,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>s4_3</last-edited>
+          <last-edited>s4_4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
