@@ -1,15 +1,10 @@
-<<<<<<< HEAD
 *.pdf
 *.zip
 algs4-date/*
 *.txt
 *.class
-
-=======
-*.class
-
+*.xml
 # Package Files #
 *.jar
 *.war
 *.ear
->>>>>>> f6226bf9facf463d751e04e65db268cfd8fbe825
