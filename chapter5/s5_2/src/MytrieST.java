@@ -17,6 +17,10 @@ public class MytrieST <Value> {
         int N;
     }
 
+    public int size()
+    {
+        return size(root);
+    }
     public Value get(String key)
     {
         Node x = get(root, key, 0);
@@ -47,7 +51,14 @@ public class MytrieST <Value> {
     private Node put(Node x, String key, Value val, int d)
     {
         if(x == null)
+        {
             x = new Node();
+            if(d == key.length())
+            {
+                x.val = val;
+                x.N = 1;
+            }
+        }
         if(d == key.length())
         {
             x.val = val;
@@ -55,7 +66,9 @@ public class MytrieST <Value> {
         else
         {
             char c = key.charAt(d);
+            x.N -= size(x.next[c]);
             x.next[c] = put(x.next[c], key, val, d + 1);
+            x.N += size(x.next[c]);
         }
 
         return x;
@@ -130,11 +143,16 @@ public class MytrieST <Value> {
         if(x == null)
             return null;
         if(d == s.length() && x.val != null)
+        {
             x.val = null;
+            x.N--;
+        }
         else
         {
             char c = s.charAt(d);
+            x.N -= size(x.next[c]);
             x.next[c] = delete(x.next[c], s, d + 1);
+            x.N += size(x.next[c]);
         }
         if(x.val != null)
             return x;
@@ -144,4 +162,151 @@ public class MytrieST <Value> {
         return null;
     }
 
+    public String floor(String key)
+    {
+        return floor(root, key, 0, "");
+    }
+    private String floor(Node x, String key, int d, String pre)
+    {
+        if(x == null)
+            return null;
+        if(d == key.length() && x.val != null)
+            return pre;
+        if(d == key.length())
+            return null;
+        char c = key.charAt(d);
+        String s = floor(x.next[c], key, d + 1, pre + c);
+        while (s == null && c > 0)
+        {
+            c--;
+            s = getMax(x.next[c],pre + c);
+        }
+        return s;
+    }
+    private String getMax(Node x, String pre)
+    {
+        if(x == null)
+            return null;
+        char c = (char)R;
+        do
+        {
+            c--;
+            String s = getMax(x.next[c], pre + c);
+            if(s != null)
+                return s;
+        }while (c >0);
+        if(x.val != null)
+            return  pre;
+        return null;
+    }
+
+    public String ceiling(String key)
+    {
+        return ceiling(root, key, 0, "");
+    }
+    private String ceiling(Node x, String key, int d, String pre)
+    {
+        if(x == null)
+            return null;
+        if(d == key.length() && x.val != null)
+            return pre;
+        if(d == key.length())
+            return null;
+        char c = key.charAt(d);
+        String s = ceiling(x.next[c], key, d + 1, pre + c);
+        while (s == null && c < R - 1)
+        {
+            c++;
+            s = getMin(x.next[c], pre + c);
+        }
+        return s;
+    }
+    private String getMin(Node x, String pre)
+    {
+        if(x == null)
+            return null;
+        char c = (char)0;
+        do
+        {
+            String s = getMin(x.next[c], pre + c);
+            if(s != null)
+                return s;
+            c++;
+        }while (c < R);
+        if(x.val != null)
+            return  pre;
+        return null;
+    }
+
+    public int rank(String key)
+    {
+        return rank(root, key, 0);
+    }
+    private int rank(Node x, String key, int d)
+    {
+        if(x ==  null)
+            return 0;
+        if(key.length() == d && x.val != null)
+            return 0;
+        if(key.length() == d)
+            return 0;
+
+        int result = 0;
+        char c = key.charAt(d);
+
+        for(char i = 0; i < c; ++i)
+            result += size(x.next[i]);
+        if(x.val != null)
+            result += 1;
+        result += rank(x.next[c], key, d + 1);
+        return result;
+    }
+
+    public String select(int k)
+    {
+        return select(root, k, "");
+    }
+
+    private String select(Node x, int k, String pre)
+    {
+        if(x == null)
+            return null;
+        if(k == 0 && x.val != null)
+            return pre;
+        if(k < 0)
+            return null;
+        if(k >= x.N)
+            return null;
+        if(x.val != null)
+            k--;
+
+        int before = 0;
+        int oldBefore = 0;
+        char c = 0;
+        char oldC = 0;
+        while(k >= before)
+        {
+            oldBefore = before;
+            oldC = c;
+            before += size(x.next[c]);
+            c++;
+        }
+        return select(x.next[oldC], k - oldBefore, pre + oldC);
+    }
+    public String toString()
+    {
+        StringBuilder sb = new StringBuilder();
+        for(String s: keys())
+        {
+            Node x = get(root, s, 0);
+            sb.append(s + ":" + x.N + "   ");
+        }
+        return sb.toString();
+    }
+
+    public boolean containsPrefix(String pre)
+    {
+        Node x = get(root, pre, 0);
+        return x != null;
+    }
 }

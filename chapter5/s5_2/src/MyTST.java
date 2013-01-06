@@ -72,7 +72,6 @@ public class MyTST<Value> {
     {
         Queue<String> q = new Queue<String>();
         Node x = get(root, pre, 0);
-
         if(x.val != null)
             q.enqueue(pre);
         collect(x.mid, pre, q);
@@ -82,10 +81,9 @@ public class MyTST<Value> {
     {
         if(x == null)
             return;
+        collect(x.left, pre, q);
         if(x.val != null)
             q.enqueue(pre + x.c);
-
-        collect(x.left, pre, q);
         collect(x.mid, pre + x.c, q);
         collect(x.right, pre, q);
 

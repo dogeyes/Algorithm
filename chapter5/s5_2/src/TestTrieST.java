@@ -8,7 +8,7 @@
 public class TestTrieST {
     public static void main(String[] args)
     {
-        MyTST<Integer> st = new MyTST<Integer>();
+        MytrieST<Integer> st = new MytrieST<Integer>();
         In in = new In("shellsST.txt");
 
         int count = 0;
@@ -21,7 +21,7 @@ public class TestTrieST {
         StdOut.println();
         StdOut.println(st.size());
 
-        for(String s: st.keys())
+        /*for(String s: st.keys())
         {
             StdOut.print(s + " ");
         }
@@ -35,16 +35,37 @@ public class TestTrieST {
         StdOut.println(st.longestPrefixOf("shell"));
         StdOut.println();
         StdOut.println(st.keysWithPrefix("she"));
-
+        */
         st.delete("she");
         StdOut.println(st.keys());
         StdOut.println(st.size());
 
-        MyTST<Integer> tst = new MyTST<Integer>();
+        StdOut.println(st);
+        for(String s: st.keys())
+        {
+            StdOut.println("floor " + s + " " + st.floor(s));
+            StdOut.println("ceiling " + s + " " + st.ceiling(s));
+            StdOut.println("rank " + s + " " + st.rank(s));
+        }
+        String s = "aa";
+
+        StdOut.println("floor " + s + " " + st.floor(s));
+        StdOut.println("ceiling " + s + " " + st.ceiling(s));
+        StdOut.println("rank " + s + " " + st.rank(s));
+
+
+        StdOut.println("Select: ");
+        for(int i = 0; i < st.size(); ++i)
+            StdOut.print(st.select(i) + " ");
+        StdOut.println();
+        s = "shec";
+        StdOut.println("contains prefix " + s + " : " + st.containsPrefix(s));
+    /*    MyTST<Integer> tst = new MyTST<Integer>();
         tst.put("object", 0);
         StdOut.println(tst.keys());
         tst.delete("object");
         StdOut.println(tst.keys());
-        StdOut.println(tst.isEmpty());
+        StdOut.println(tst.isEmpty());        */
+
     }
 }

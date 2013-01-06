@@ -6,12 +6,12 @@
  * To change this template use File | Settings | File Templates.
  */
 public class MyStringSET {
-    private MyTST<Object> tst;
+    private MyEmptyTST<Object> tst;
     private static Object mark = new Object();
 
     public MyStringSET()
     {
-        tst = new MyTST<Object>();
+        tst = new MyEmptyTST<Object>();
     }
 
     public void add(String key)
